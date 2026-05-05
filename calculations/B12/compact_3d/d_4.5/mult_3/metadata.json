@@ -1,0 +1,17 @@
+{
+  "cluster": "B12",
+  "structure_name": "compact_3d",
+  "description": "Compact non-planar B12 cage-like cluster.",
+  "initial_distance_A": 4.5,
+  "charge": 0,
+  "multiplicity": 3,
+  "method": "PBE0",
+  "dispersion": "D3BJ",
+  "basis": "def2-SVP",
+  "nprocs": 8,
+  "maxcore_MB_per_process": 2500,
+  "run_type": "Opt Freq",
+  "min_distance_A": 4.499999999999999,
+  "max_distance_A": 15.994565192667142,
+  "mean_distance_A": 11.547920784098691
+}

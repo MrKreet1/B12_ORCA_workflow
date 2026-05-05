@@ -1,0 +1,87 @@
+B12 best structure report
+=========================
+
+Selection rule: lowest total energy among true minima only.
+True minimum: ORCA terminated normally, SCF converged, no imaginary frequencies.
+Expected nonlinear B12 vibrational modes: 30
+
+Best preliminary B12 true minimum
+---------------------------------
+Structure name: bilayer_3d
+Calculation path: calculations/B12/bilayer_3d/d_3.5/mult_1
+Initial distance d: 3.5 A
+Charge: 0
+Multiplicity: 1
+Method: PBE0
+Basis: def2-SVP
+Total energy: -297.373546508462 Eh
+Relative energy: 0.00000000 eV
+ORCA terminated normally: True
+SCF converged: True
+Imaginary frequencies present: False
+Number of imaginary frequencies: 0
+Number of vibrational modes parsed: 30
+Optimized XYZ path: calculations/B12/bilayer_3d/d_3.5/mult_1/optimized.xyz
+Output path: calculations/B12/bilayer_3d/d_3.5/mult_1/output.out
+Disk used by calculation folder: 7.68 MB
+Final refinement input created at: calculations/B12/final_refinement/input.inp
+
+Optimized coordinates XYZ
+-------------------------
+12
+Optimized coordinates extracted from calculations/B12/bilayer_3d/d_3.5/mult_1/output.out
+B        2.31480507       0.62774874       0.51499542
+B        1.09480610       1.68497898       0.27374238
+B       -0.36514929       2.41452216       0.24477873
+B       -2.01158327       0.12434453      -0.21937234
+B       -0.63008134      -2.37175720      -0.03684274
+B        0.90099397      -1.81537129       0.06493435
+B        1.01784704      -0.04092022      -0.25153842
+B       -0.38684453       0.89331219      -0.38956698
+B       -1.75244460       1.71687576       0.02768295
+B       -1.93070559      -1.50487251      -0.16210607
+B       -0.47970970      -0.79362348      -0.48941344
+B        2.22806613      -0.93523767       0.42270616
+
+Vibrational modes
+-----------------
+mode, frequency_cm-1, IR_intensity_if_available, reduced_mass_if_available, force_constant_if_available
+  1     193.270000 IR= red_mass= force_const=
+  2     193.620000 IR= red_mass= force_const=
+  3     222.830000 IR= red_mass= force_const=
+  4     359.430000 IR= red_mass= force_const=
+  5     405.840000 IR= red_mass= force_const=
+  6     406.050000 IR= red_mass= force_const=
+  7     451.490000 IR= red_mass= force_const=
+  8     489.150000 IR= red_mass= force_const=
+  9     489.240000 IR= red_mass= force_const=
+ 10     513.380000 IR= red_mass= force_const=
+ 11     513.600000 IR= red_mass= force_const=
+ 12     569.300000 IR= red_mass= force_const=
+ 13     576.330000 IR= red_mass= force_const=
+ 14     616.920000 IR= red_mass= force_const=
+ 15     617.250000 IR= red_mass= force_const=
+ 16     650.740000 IR= red_mass= force_const=
+ 17     651.080000 IR= red_mass= force_const=
+ 18     700.290000 IR= red_mass= force_const=
+ 19     853.660000 IR= red_mass= force_const=
+ 20     959.200000 IR= red_mass= force_const=
+ 21     959.430000 IR= red_mass= force_const=
+ 22     995.810000 IR= red_mass= force_const=
+ 23     995.890000 IR= red_mass= force_const=
+ 24    1181.120000 IR= red_mass= force_const=
+ 25    1198.140000 IR= red_mass= force_const=
+ 26    1198.490000 IR= red_mass= force_const=
+ 27    1239.820000 IR= red_mass= force_const=
+ 28    1312.870000 IR= red_mass= force_const=
+ 29    1358.810000 IR= red_mass= force_const=
+ 30    1358.990000 IR= red_mass= force_const=
+
+Normal-mode displacement data
+-----------------------------
+Raw normal-mode data were extracted to normal_modes_raw.txt in the calculation folder.
+Path: calculations/B12/bilayer_3d/d_3.5/mult_1/normal_modes_raw.txt
+
+Conclusion
+----------
+This structure is the best preliminary true minimum among the parsed PBE0-D3BJ/def2-SVP Opt Freq calculations. It must still be refined with the generated PBE0-D3BJ/def2-TZVP Opt Freq input before final reporting.

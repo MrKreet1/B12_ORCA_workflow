@@ -1,0 +1,36 @@
+Source output: calculations/B12/bilayer_3d/d_4.0/mult_1/output.out
+All frequencies parsed: 36
+Vibrational frequencies used for B12 check: 30
+Expected nonlinear B12 vibrational modes: 30
+
+# mode_number,frequency_cm-1,imaginary,ir_intensity,reduced_mass,force_constant
+1,42.68000000,false,,,
+2,53.34000000,false,,,
+3,132.98000000,false,,,
+4,163.79000000,false,,,
+5,178.51000000,false,,,
+6,238.44000000,false,,,
+7,299.25000000,false,,,
+8,311.36000000,false,,,
+9,346.41000000,false,,,
+10,384.62000000,false,,,
+11,425.86000000,false,,,
+12,438.57000000,false,,,
+13,498.48000000,false,,,
+14,532.50000000,false,,,
+15,543.48000000,false,,,
+16,593.13000000,false,,,
+17,678.85000000,false,,,
+18,682.97000000,false,,,
+19,721.57000000,false,,,
+20,725.02000000,false,,,
+21,810.80000000,false,,,
+22,835.11000000,false,,,
+23,1129.98000000,false,,,
+24,1149.27000000,false,,,
+25,1278.20000000,false,,,
+26,1292.22000000,false,,,
+27,1329.90000000,false,,,
+28,1356.57000000,false,,,
+29,1419.96000000,false,,,
+30,1423.44000000,false,,,

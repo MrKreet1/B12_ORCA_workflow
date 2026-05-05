@@ -1,0 +1,34 @@
+ 1 0 0 0 0 0 1 0 0 0 0 0 0 0 # Dipole, Quadrupole, Polarizability, DipoleAtom, QuadrupoleAtom, PolarAtom, SCFHess, MP2Hess, CISHEss, HyperPol, PolarDipQuad, PolarQuadQuad, PolarVelocity, SCFXES
+ 1 0 0 0                 # IR, Raman, OvertComb, VCD
+ 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0# DoGTensor, ZFSSOC, ZFSSpinSpin, Hyperfine, FieldGradient, ContactDensity, NMRShift, NMRSpinRot, NMRSpinSpin, Magnetizability OptDSOC OptDSS SOCEnergy DBOC
+ 2 1 1 0 0 0 1 1 0 0 1 0# PrintLevel, NMRGIAO, EPRGIAO, LMOFlag, NBOFlag, NMRShieldingNumeric, NMRSPinSpinNumeric, EPRGaugeNumeric, PrintReducedCoupling, EPR_HFCGaugeCorrection_Zeff, PrintEuler, GIAO_SOC2EL
+ 0 # AIM
+ # NMR_LMO_GBWName 
+0 0 # List_Shift
+0 0 # Vals_Shift
+0 0 # List_AQ
+0 0 # Vals_AQ
+0 # Flag_SpinSpin
+0 0 # SSElementPairs
+0 0 # SSAtomPairs
+5.0000000000000000e+00 # SpinSpinRThresh
+0 0 # List_SpinSpin
+0 0 # Vals_SpinSpin
+1 # HaveORI
+-6 # OriginType
+-1 # OriginAtom
+      0.00000000000000      -0.00000000000000      -0.00000000000000 # Origin
+1 # HaveORI
+-3 # OriginType
+-1 # OriginAtom
+      0.00000000000000       0.00000000000000       0.00000000000000 # Origin
+0 # number of real frequencies
+0 # number of imag frequencies
+0.0000000000000000e+00 
+0.0000000000000000e+00 
+0.0000000000000000e+00 
+0.0000000000000000e+00 
+0.0000000000000000e+00 
+0.0000000000000000e+00 
+0.0000000000000000e+00 
+0.0000000000000000e+00 
