@@ -1,0 +1,17 @@
+{
+  "cluster": "B12",
+  "structure_name": "icosahedron",
+  "description": "Regular icosahedral B12 vertex shell.",
+  "initial_distance_A": 3.0,
+  "charge": 0,
+  "multiplicity": 3,
+  "method": "PBE0",
+  "dispersion": "D3BJ",
+  "basis": "def2-SVP",
+  "nprocs": 8,
+  "maxcore_MB_per_process": 2500,
+  "run_type": "Opt Freq",
+  "min_distance_A": 3.0,
+  "max_distance_A": 5.706339097770922,
+  "mean_distance_A": 4.0888044480926675
+}

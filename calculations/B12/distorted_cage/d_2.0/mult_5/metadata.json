@@ -1,0 +1,17 @@
+{
+  "cluster": "B12",
+  "structure_name": "distorted_cage",
+  "description": "Anisotropically deformed 3D cage.",
+  "initial_distance_A": 2.0,
+  "charge": 0,
+  "multiplicity": 5,
+  "method": "PBE0",
+  "dispersion": "D3BJ",
+  "basis": "def2-SVP",
+  "nprocs": 8,
+  "maxcore_MB_per_process": 2500,
+  "run_type": "Opt Freq",
+  "min_distance_A": 1.7685490552243672,
+  "max_distance_A": 4.279809573955354,
+  "mean_distance_A": 2.881559620439005
+}

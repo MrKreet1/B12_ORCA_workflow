@@ -1,0 +1,17 @@
+{
+  "cluster": "B12",
+  "structure_name": "random_3d_03",
+  "description": "Random 3D B12 cloud with controlled minimum distance 03.",
+  "initial_distance_A": 5.0,
+  "charge": 0,
+  "multiplicity": 3,
+  "method": "PBE0",
+  "dispersion": "D3BJ",
+  "basis": "def2-SVP",
+  "nprocs": 8,
+  "maxcore_MB_per_process": 2500,
+  "run_type": "Opt Freq",
+  "min_distance_A": 4.2068528543921095,
+  "max_distance_A": 20.757258830989162,
+  "mean_distance_A": 12.585642018440321
+}
