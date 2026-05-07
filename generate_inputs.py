@@ -10,7 +10,8 @@ Scope:
 - 3D, planar, and quasi-planar starting geometries
 - multiplicities: 1, 3, 5
 - distances d: 5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0 Angstrom
-- preliminary method: PBE0-D3BJ/def2-SVP, Opt Freq
+- default preliminary method: PBE0-D3BJ/def2-SVP, Opt Freq
+- staged screening can use B12_PRELIMINARY_RUN_TYPE=Opt
 - alternative method is documented in comments: B3LYP-D3BJ/def2-SVP
 - ORCA resources: %pal nprocs 8 end, %maxcore 2500
 
@@ -342,8 +343,8 @@ def write_xyz(path: Path, atoms: Sequence[Atom], comment: str) -> None:
 
 
 def orca_input_text(multiplicity: int) -> str:
-    """Return a complete ORCA input file for preliminary Opt Freq."""
-    return f"""# B12 only. Neutral 3D boron cluster. Preliminary geometry optimization + frequency check.
+    """Return a complete ORCA input file for the preliminary run type."""
+    return f"""# B12 only. Neutral 3D boron cluster. Preliminary run type: {PRELIMINARY_RUN_TYPE}.
 # {ALTERNATIVE_METHOD_COMMENT}
 # Run with: orca input.inp > output.out
 
@@ -527,6 +528,15 @@ python3 analyze_results.py
 3. Base the final scientific conclusion only on completed, frequency-checked
    PBE0-D3BJ/def2-TZVP final-refinement results.
 
+## Staged workflow option
+
+The current report uses the conservative default `Opt Freq` preliminary inputs.
+For a faster staged screening run, generate Stage 1 optimization-only inputs with:
+
+```bash
+B12_PRELIMINARY_RUN_TYPE=Opt python3 generate_inputs.py
+```
+
 ## ORCA command
 
 The script resolves the full ORCA path via `command -v orca` and then runs:
@@ -551,6 +561,10 @@ calculations that:
 
 
 def main() -> None:
+    if PRELIMINARY_RUN_TYPE not in ALLOWED_PRELIMINARY_RUN_TYPES:
+        allowed = ", ".join(sorted(ALLOWED_PRELIMINARY_RUN_TYPES))
+        raise SystemExit(f"Unsupported B12_PRELIMINARY_RUN_TYPE={PRELIMINARY_RUN_TYPE!r}. Allowed values: {allowed}")
+
     specs = build_structure_specs()
     ROOT.mkdir(parents=True, exist_ok=True)
     write_summary_template(ROOT)

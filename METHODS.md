@@ -22,4 +22,16 @@ For faster completion, future production runs should use a staged workflow:
 2. Stage 2: `Freq` only for the 10-20 lowest-energy optimized candidates.
 3. Stage 3: PBE0-D3BJ/def2-TZVP `Opt Freq` for the final candidate set.
 
+The generator supports this by setting the preliminary run type:
+
+```bash
+B12_PRELIMINARY_RUN_TYPE=Opt python3 generate_inputs.py
+```
+
+Without this environment variable, the generator keeps the conservative default:
+
+```bash
+B12_PRELIMINARY_RUN_TYPE="Opt Freq" python3 generate_inputs.py
+```
+
 This keeps the current report scientifically conservative while avoiding full frequency calculations for every high-energy or failed preliminary structure in future runs.

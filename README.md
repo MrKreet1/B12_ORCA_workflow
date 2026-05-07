@@ -227,9 +227,15 @@ Number of vibrational modes parsed: 30
 
 ```bash
 python3 generate_inputs.py
-./run_all.sh
+TIME_LIMIT=4h ./run_all.sh
 python3 analyze_results.py
 ./run_final_refinement.sh
+```
+
+Для ускоренного staged workflow на первом этапе можно сгенерировать только оптимизации:
+
+```bash
+B12_PRELIMINARY_RUN_TYPE=Opt python3 generate_inputs.py
 ```
 
 Для отдельной проверки планарных/квазипланарных контролей:
