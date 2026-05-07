@@ -1,4 +1,0 @@
-normal modes             ... done
-Scaling frequencies                  ... done
-
------------------------

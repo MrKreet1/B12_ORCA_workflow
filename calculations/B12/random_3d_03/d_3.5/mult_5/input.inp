@@ -2,7 +2,7 @@
 # Alternative screening level: B3LYP-D3BJ/def2-SVP
 # Run with: orca input.inp > output.out
 
-! PBE0 D3BJ def2-SVP NoRI Opt Freq TightSCF NoAutoStart XYZFile
+! PBE0 D3BJ def2-SVP NoRI Opt TightSCF NoAutoStart XYZFile
 
 %pal
 nprocs 8

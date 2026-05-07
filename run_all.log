@@ -1205,3 +1205,1151 @@ SUCCESS elapsed_seconds=4795
 SUCCESS elapsed_seconds=4559
 [2026-05-05 07:10:13] OK calculations/B12/bilayer_3d/d_4.0/mult_3
 [2026-05-05 07:10:15] START 15/211: calculations/B12/bilayer_3d/d_4.0/mult_5
+FAILED rc=15 elapsed_seconds=12404
+--- output.err tail ---
+[vmi3233575][[48069,1],2][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(17) failed: Connection reset by peer (104)
+[vmi3233575][[48069,1],2][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(17) failed: Connection reset by peer (104)
+[vmi3233575][[22574,1],7][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(17) failed: Connection reset by peer (104)
+[vmi3233575][[22574,1],7][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(18) failed: Connection reset by peer (104)
+[vmi3233575][[22574,1],7][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(17) failed: Connection reset by peer (104)
+[vmi3233575][[22574,1],7][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(17) failed: Connection reset by peer (104)
+[vmi3233575][[18315,1],0][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(18) failed: Connection reset by peer (104)
+[vmi3233575][[18315,1],3][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(17) failed: Connection reset by peer (104)
+[vmi3233575][[18315,1],3][../../../../../../opal/mca/btl/tcp/btl_tcp.c:559:mca_btl_tcp_recv_blocking] recv(17) failed: Connection reset by peer (104)
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+Method             : SCF
+Type of density    : Electron Density
+Multiplicity       :   5
+Irrep              :   0
+Energy             :  -297.1903800255794295 Eh
+Basis              : AO
+                                X                 Y                 Z
+Electronic contribution:     -0.000253376      -0.000165515       0.008351205
+Nuclear contribution   :     -0.000000000      -0.000000000      -0.000000000
+                        -----------------------------------------
+Total Dipole Moment    :     -0.000253376      -0.000165515       0.008351205
+                        -----------------------------------------
+Magnitude (a.u.)       :      0.008356687
+Magnitude (Debye)      :      0.021241012
+
+
+
+--------------------
+Rotational spectrum 
+--------------------
+ 
+Rotational constants in cm-1:             0.246543             0.016478             0.015446 
+Rotational constants in MHz :          7391.179083           493.986662           463.047915 
+
+Dipole components along the rotational axes: 
+x,y,z [a.u.] :    -0.000304    -0.000107     0.008350 
+x,y,z [Debye]:    -0.000773    -0.000272     0.021225 
+
+ 
+
+Dipole moment calculation done in   0.2 sec 
+
+-----------
+SCF HESSIAN
+-----------
+
+Occupied/Occupied contributions to the Hessian:
+   => Occupied/Occupied contributions              ... done (  0.0 sec)
+Perturbed density contributions to the Hessian:
+   => Perturbed density contributions              ... done (  0.0 sec)
+Explicit contributions to the Hessian:
+   => Nuclear repulsion Hessian                    ... done (  0.0 sec)
+   => HCore and overlap Hessian                    ... done (  1.1 sec)
+   => Exact two electron integral Hessian          ... done ( 34.8 sec)
+   => XC-Hessian                                   ... 
+ORCA finished by error termination in PROPERTIES
+Calling Command: mpirun -np 8  /opt/orca/orca_prop_mpi input.propinp.tmp input 2 input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-05 10:36:59] FAIL calculations/B12/bilayer_3d/d_4.0/mult_5
+[2026-05-05 10:37:01] START 16/211: calculations/B12/bilayer_3d/d_4.5/mult_1
+FAILED rc=2 elapsed_seconds=44
+--- output.err tail ---
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+   34    -294.9775478503149770    -1.12e-04  1.07e-03  5.86e-03  1.30e-03     0.6
+   35    -294.9775372392060717     1.06e-05  1.64e-03  6.88e-03  1.49e-03     0.7
+   36    -294.9776443271805419    -1.07e-04  1.22e-03  4.50e-03  2.88e-04     0.8
+   37    -294.9776777689727396    -3.34e-05  1.34e-03  6.15e-03  3.80e-04     0.5
+   38    -294.9777277661622747    -5.00e-05  3.45e-03  1.69e-02  4.14e-04     0.5
+   39    -294.9778295459144601    -1.02e-04  3.40e-03  1.66e-02  5.29e-04     0.8
+   40    -294.9779445387124497    -1.15e-04  2.78e-03  1.22e-02  6.91e-04     0.7
+               *** Scaled step length from 0.309972 to 0.200000 ***
+   41    -294.9780734684510435    -1.29e-04  5.61e-03  2.19e-02  7.19e-04     0.5
+   42    -294.9779003088240188     1.73e-04  3.35e-03  1.74e-02  3.23e-03     0.5
+   43    -294.9783003648561817    -4.00e-04  1.21e-03  5.66e-03  5.57e-04     0.7
+   44    -294.9784036769408431    -1.03e-04  5.22e-03  2.39e-02  4.99e-04     0.5
+   45    -294.9783822551861476     2.14e-05  3.15e-03  1.42e-02  2.83e-03     0.5
+   46    -294.9785718779938861    -1.90e-04  9.56e-04  4.94e-03  5.74e-04     0.6
+               *** Scaled step length from 0.205997 to 0.200000 ***
+   47    -294.9786259260538372    -5.40e-05  5.61e-03  2.62e-02  6.26e-04     0.7
+   48    -294.9786813282491948    -5.54e-05  2.07e-03  9.69e-03  2.11e-03     0.6
+               *** Restarting incremental Fock matrix formation ***
+   49    -294.9788114417328870    -1.30e-04  9.69e-04  4.46e-03  5.71e-04     0.7
+               *** Scaled step length from 0.280334 to 0.200000 ***
+   50    -294.9788887827913868    -7.73e-05  5.59e-03  2.64e-02  4.96e-04     0.8
+
+       ******************************************************************************
+       ***                                                                        ***
+       ***                               Auto-TRAH                                ***
+       ***                               ---------                                ***
+       *** the maximum gradient error decreased on average only by a factor   1.0 ***
+       *** during the last  10 iterations                                         ***
+       ***                                                                        ***
+       ***               Leaving SCF to start the TRAH-SCF procedure              ***
+       ***                                                                        ***
+       ******************************************************************************
+
+ --------------------------------------------------------------------------------------------
+   Iter.        energy            ||Error||_2        Shift      TRadius  Mac/Mic        Rej.
+ --------------------------------------------------------------------------------------------
+    0       -294.979272399501     1.378452e-02                     0.400 (TRAH MAcro)   No
+WARNING : small    HOMO - LUMO gap : 0.018386
+WARNING : small    HOMO - LUMO gap : 0.018386
+    0     dE    -5.546442e-05     9.182139e-03    -1.1092e-04      0.010 (TRAH MIcro)
+    0     dE    -1.039914e-04     2.115592e-02    -2.0786e-04      0.025 (TRAH MIcro)
+    0     dE    -2.731646e-04     8.994019e-03    -5.4146e-04      0.095 (TRAH MIcro)
+    0     dE    -3.059876e-04     7.733146e-03    -6.0450e-04      0.111 (TRAH MIcro)
+    0     dE    -3.962359e-04     1.447235e-02    -7.7143e-04      0.165 (TRAH MIcro)
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-05 10:37:45] FAIL calculations/B12/bilayer_3d/d_4.5/mult_1
+[2026-05-05 10:37:47] START 17/211: calculations/B12/bilayer_3d/d_4.5/mult_3
+FAILED rc=2 elapsed_seconds=4
+--- output.err tail ---
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+
+SCF Procedure:
+ Maximum # iterations   MaxIter         ....   500
+ SCF integral mode      SCFMode         .... Direct
+   Integral package                     .... SHARK and LIBINT hybrid scheme
+ Reset frequency        DirectResetFreq ....    20
+ Integral Threshold     Thresh          ....  2.500e-11 Eh
+ Primitive CutOff       TCut            ....  2.500e-12 Eh
+
+Convergence Tolerance:
+ Convergence Check Mode ConvCheckMode   .... Total+1el-Energy
+ Convergence forced     ConvForced      .... 0
+ Energy Change          TolE            ....  1.000e-08 Eh
+ 1-El. energy change                    ....  1.000e-05 Eh
+ Orbital Gradient       TolG            ....  1.000e-05
+ Orbital Rotation angle TolX            ....  1.000e-05
+ DIIS Error             TolErr          ....  5.000e-07
+
+------------------------------
+INITIAL GUESS: MODEL POTENTIAL
+------------------------------
+Loading Hartree-Fock densities                     ... done
+Calculating cut-offs                               ... done
+Initializing the effective Hamiltonian             ... done
+Setting up the integral package (SHARK)            ... done
+Starting the Coulomb interaction                   ... done (   0.1 sec)
+Making the grid                                    ... done (   0.2 sec)
+Mapping shells                                     ... done
+Starting the XC term evaluation                    ... done (   0.0 sec)
+  promolecular density results
+     # of electrons  =     60.000092330
+     EX              =    -43.894525190
+     EC              =     -1.416804578
+     EX+EC           =    -45.311329769
+Transforming the Hamiltonian                       ... done (   0.0 sec)
+Diagonalizing the Hamiltonian                      ... done (   0.0 sec)
+Back transforming the eigenvectors                 ... done (   0.0 sec)
+Now organizing SCF variables                       ... done
+                      ------------------
+                      INITIAL GUESS DONE (   0.3 sec)
+                      ------------------
+             **** ENERGY FILE WAS UPDATED (input.en.tmp) ****
+Finished Guess after   0.9 sec
+Maximum memory used throughout the entire GUESS-calculation: 6.5 MB
+
+ORCA finished by error termination in GUESS
+Calling Command: mpirun -np 8  /opt/orca/orca_guess_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-05 10:37:51] FAIL calculations/B12/bilayer_3d/d_4.5/mult_3
+[2026-05-05 10:37:53] START 18/211: calculations/B12/bilayer_3d/d_4.5/mult_5
+============================================================
+B12 ORCA sequential run started: 2026-05-05 10:39:45
+ROOT_DIR=calculations/B12
+ORCA_BIN=/opt/orca/orca
+RESUME_MODE=1
+No parallel job dispatch is used; one input.inp is run at a time.
+============================================================
+[2026-05-05 10:39:45] SKIP completed 1/212: calculations/B12/bilayer_3d/d_2.0/mult_1
+[2026-05-05 10:39:45] SKIP completed 2/212: calculations/B12/bilayer_3d/d_2.0/mult_3
+[2026-05-05 10:39:45] SKIP completed 3/212: calculations/B12/bilayer_3d/d_2.0/mult_5
+[2026-05-05 10:39:45] SKIP completed 4/212: calculations/B12/bilayer_3d/d_2.5/mult_1
+[2026-05-05 10:39:45] SKIP completed 5/212: calculations/B12/bilayer_3d/d_2.5/mult_3
+[2026-05-05 10:39:45] SKIP completed 6/212: calculations/B12/bilayer_3d/d_2.5/mult_5
+[2026-05-05 10:39:45] START 7/212: calculations/B12/bilayer_3d/d_3.0/mult_1
+============================================================
+B12 ORCA sequential run started: 2026-05-05 10:44:19
+ROOT_DIR=calculations/B12
+ORCA_BIN=/opt/orca/orca
+RESUME_MODE=1
+No parallel job dispatch is used; one input.inp is run at a time.
+============================================================
+[2026-05-05 10:44:19] SKIP completed 1/211: calculations/B12/bilayer_3d/d_2.0/mult_1
+[2026-05-05 10:44:19] SKIP completed 2/211: calculations/B12/bilayer_3d/d_2.0/mult_3
+[2026-05-05 10:44:19] SKIP completed 3/211: calculations/B12/bilayer_3d/d_2.0/mult_5
+[2026-05-05 10:44:19] SKIP completed 4/211: calculations/B12/bilayer_3d/d_2.5/mult_1
+[2026-05-05 10:44:19] SKIP completed 5/211: calculations/B12/bilayer_3d/d_2.5/mult_3
+[2026-05-05 10:44:19] SKIP completed 6/211: calculations/B12/bilayer_3d/d_2.5/mult_5
+[2026-05-05 10:44:19] START 7/211: calculations/B12/bilayer_3d/d_3.0/mult_1
+SUCCESS elapsed_seconds=1824
+[2026-05-05 11:14:43] OK calculations/B12/bilayer_3d/d_3.0/mult_1
+[2026-05-05 11:14:45] SKIP completed 8/211: calculations/B12/bilayer_3d/d_3.0/mult_3
+[2026-05-05 11:14:45] SKIP completed 9/211: calculations/B12/bilayer_3d/d_3.0/mult_5
+[2026-05-05 11:14:45] SKIP completed 10/211: calculations/B12/bilayer_3d/d_3.5/mult_1
+[2026-05-05 11:14:45] SKIP completed 11/211: calculations/B12/bilayer_3d/d_3.5/mult_3
+[2026-05-05 11:14:45] SKIP completed 12/211: calculations/B12/bilayer_3d/d_3.5/mult_5
+[2026-05-05 11:14:45] SKIP completed 13/211: calculations/B12/bilayer_3d/d_4.0/mult_1
+[2026-05-05 11:14:45] SKIP completed 14/211: calculations/B12/bilayer_3d/d_4.0/mult_3
+[2026-05-05 11:14:45] START 15/211: calculations/B12/bilayer_3d/d_4.0/mult_5
+SUCCESS elapsed_seconds=4177
+[2026-05-05 12:24:22] OK calculations/B12/bilayer_3d/d_4.0/mult_5
+[2026-05-05 12:24:24] START 16/211: calculations/B12/bilayer_3d/d_4.5/mult_1
+SUCCESS elapsed_seconds=3063
+[2026-05-05 13:15:27] OK calculations/B12/bilayer_3d/d_4.5/mult_1
+[2026-05-05 13:15:29] START 17/211: calculations/B12/bilayer_3d/d_4.5/mult_3
+SUCCESS elapsed_seconds=3011
+[2026-05-05 14:05:40] OK calculations/B12/bilayer_3d/d_4.5/mult_3
+[2026-05-05 14:05:42] START 18/211: calculations/B12/bilayer_3d/d_4.5/mult_5
+SUCCESS elapsed_seconds=2703
+[2026-05-05 14:50:45] OK calculations/B12/bilayer_3d/d_4.5/mult_5
+[2026-05-05 14:50:47] START 19/211: calculations/B12/bilayer_3d/d_5.0/mult_1
+SUCCESS elapsed_seconds=3881
+[2026-05-05 15:55:28] OK calculations/B12/bilayer_3d/d_5.0/mult_1
+[2026-05-05 15:55:30] START 20/211: calculations/B12/bilayer_3d/d_5.0/mult_3
+SUCCESS elapsed_seconds=5122
+[2026-05-05 17:20:52] OK calculations/B12/bilayer_3d/d_5.0/mult_3
+[2026-05-05 17:20:54] START 21/211: calculations/B12/bilayer_3d/d_5.0/mult_5
+SUCCESS elapsed_seconds=5045
+[2026-05-05 18:44:59] OK calculations/B12/bilayer_3d/d_5.0/mult_5
+[2026-05-05 18:45:01] START 22/211: calculations/B12/compact_3d/d_2.0/mult_1
+SUCCESS elapsed_seconds=5585
+[2026-05-05 20:18:06] OK calculations/B12/compact_3d/d_2.0/mult_1
+[2026-05-05 20:18:08] START 23/211: calculations/B12/compact_3d/d_2.0/mult_3
+SUCCESS elapsed_seconds=8399
+[2026-05-05 22:38:07] OK calculations/B12/compact_3d/d_2.0/mult_3
+[2026-05-05 22:38:09] START 24/211: calculations/B12/compact_3d/d_2.0/mult_5
+SUCCESS elapsed_seconds=5777
+[2026-05-06 00:14:26] OK calculations/B12/compact_3d/d_2.0/mult_5
+[2026-05-06 00:14:28] START 25/211: calculations/B12/compact_3d/d_2.5/mult_1
+SUCCESS elapsed_seconds=5217
+[2026-05-06 01:41:25] OK calculations/B12/compact_3d/d_2.5/mult_1
+[2026-05-06 01:41:27] START 26/211: calculations/B12/compact_3d/d_2.5/mult_3
+FAILED rc=0 elapsed_seconds=6800
+--- output.err tail ---
+[vmi3233575:123415] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:123415] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x732127ba1f50]
+[vmi3233575:123414] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:123414] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x73212282a1ca]
+[vmi3233575:123414] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x73212282a28b]
+[vmi3233575:123414] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:123414] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x707650da1f50]
+[vmi3233575:123413] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:123413] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x70764ba2a1ca]
+[vmi3233575:123413] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x70764ba2a28b]
+[vmi3233575:123413] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:123413] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x71429fda1f50]
+[vmi3233575:123411] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:123411] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x71429aa2a1ca]
+[vmi3233575:123411] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x71429aa2a28b]
+[vmi3233575:123411] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:123411] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 2 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  498     dE    -5.283305e-07     2.187291e-05                           (NR   MIcro)
+  498     dE    -5.295720e-07     1.760118e-05                           (NR   MIcro)
+  498     dE    -5.307232e-07     1.934090e-05                           (NR   MIcro)
+  498     dE    -5.313962e-07     1.203586e-05                           (NR   MIcro)
+  498     dE    -5.320636e-07     1.933957e-05                           (NR   MIcro)
+  499       -295.253261351327     7.240120e-05                           (NR   MAcro)
+  499     dE    -1.802160e-08     8.246340e-05                           (NR   MIcro)
+  499     dE    -6.945975e-08     1.965173e-04                           (NR   MIcro)
+  499     dE    -2.340399e-07     2.856762e-04                           (NR   MIcro)
+  499     dE    -4.049614e-07     1.900514e-04                           (NR   MIcro)
+  499     dE    -4.627599e-07     1.121359e-04                           (NR   MIcro)
+  499     dE    -4.970040e-07     1.002967e-04                           (NR   MIcro)
+  499     dE    -5.190920e-07     5.719265e-05                           (NR   MIcro)
+  499     dE    -5.289175e-07     4.588516e-05                           (NR   MIcro)
+  499     dE    -5.394954e-07     4.583496e-05                           (NR   MIcro)
+  499     dE    -5.477419e-07     4.677851e-05                           (NR   MIcro)
+  499     dE    -5.569179e-07     4.208776e-05                           (NR   MIcro)
+  499     dE    -5.616509e-07     2.882033e-05                           (NR   MIcro)
+  499     dE    -5.660393e-07     3.164423e-05                           (NR   MIcro)
+  499     dE    -5.694485e-07     2.871016e-05                           (NR   MIcro)
+  499     dE    -5.733771e-07     3.278543e-05                           (NR   MIcro)
+  499     dE    -5.758018e-07     2.212460e-05                           (NR   MIcro)
+  499     dE    -5.775310e-07     2.438524e-05                           (NR   MIcro)
+  499     dE    -5.792179e-07     2.412618e-05                           (NR   MIcro)
+  499     dE    -5.810254e-07     2.469930e-05                           (NR   MIcro)
+  499     dE    -5.829190e-07     2.559558e-05                           (NR   MIcro)
+  499     dE    -5.844990e-07     2.162591e-05                           (NR   MIcro)
+  499     dE    -5.860344e-07     2.245780e-05                           (NR   MIcro)
+  499     dE    -5.868680e-07     1.253682e-05                           (NR   MIcro)
+  499     dE    -5.877058e-07     2.274201e-05                           (NR   MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 12246 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-06 03:34:47] FAIL calculations/B12/compact_3d/d_2.5/mult_3
+[2026-05-06 03:34:49] START 27/211: calculations/B12/compact_3d/d_2.5/mult_5
+SUCCESS elapsed_seconds=11850
+[2026-05-06 06:52:19] OK calculations/B12/compact_3d/d_2.5/mult_5
+[2026-05-06 06:52:21] START 28/211: calculations/B12/compact_3d/d_3.0/mult_1
+SUCCESS elapsed_seconds=10171
+[2026-05-06 09:41:52] OK calculations/B12/compact_3d/d_3.0/mult_1
+[2026-05-06 09:41:54] START 29/211: calculations/B12/compact_3d/d_3.0/mult_3
+FAILED rc=0 elapsed_seconds=3415
+--- output.err tail ---
+[vmi3233575:207003] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:207003] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x77045cc2a1ca]
+[vmi3233575:207003] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x77045cc2a28b]
+[vmi3233575:207003] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:207003] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x7a24e1da1f50]
+[vmi3233575:207006] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:207006] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7a24dca2a1ca]
+[vmi3233575:207006] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7a24dca2a28b]
+[vmi3233575:207006] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:207006] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7ccc8ee2a28b]
+[vmi3233575:207007] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:207007] *** End of error message ***
+[vmi3233575:207002] *** End of error message ***
+[vmi3233575:207005] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:207005] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7fd501c2a1ca]
+[vmi3233575:207005] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7fd501c2a28b]
+[vmi3233575:207005] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:207005] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  498     dE    -3.769953e-06     1.445506e-04    -1.6977e-03      0.037 (TRAH MIcro)
+  498     dE    -3.817133e-06     8.932143e-05    -1.7334e-03      0.037 (TRAH MIcro)
+  498     dE    -3.851702e-06     9.411616e-05    -1.7602e-03      0.037 (TRAH MIcro)
+  498     dE    -3.891890e-06     8.837452e-05    -1.7939e-03      0.037 (TRAH MIcro)
+  498     dE    -3.922616e-06     8.122023e-05    -1.8206e-03      0.037 (TRAH MIcro)
+  498     dE    -3.947473e-06     5.121939e-05    -1.8430e-03      0.037 (TRAH MIcro)
+  498     dE    -3.955611e-06     3.909067e-05    -1.8509e-03      0.037 (TRAH MIcro)
+  498     dE    -3.961416e-06     2.780988e-05    -1.8570e-03      0.037 (TRAH MIcro)
+  498     dE    -3.964328e-06     2.088172e-05    -1.8596e-03      0.037 (TRAH MIcro)
+  498     dE    -3.965488e-06     1.346653e-05    -1.8608e-03      0.037 (TRAH MIcro)
+  498     dE    -3.966282e-06     1.199474e-05    -1.8616e-03      0.037 (TRAH MIcro)
+  498     dE    -3.966522e-06     7.383333e-06    -1.8620e-03      0.037 (TRAH MIcro)
+  499       -295.114543457940     1.223280e-04                     0.037 (TRAH MAcro)   No
+  499     dE    -3.150775e-08     5.802268e-05    -3.1508e-08      0.000 (TRAH MIcro)
+  499     dE    -4.652582e-08     1.040046e-04    -4.6526e-08      0.001 (TRAH MIcro)
+  499     dE    -3.609270e-07     5.926796e-04    -3.6086e-07      0.014 (TRAH MIcro)
+  499     dE    -2.796200e-06     4.376322e-04    -1.3759e-03      0.037 (TRAH MIcro)
+  499     dE    -3.006873e-06     2.291546e-04    -1.5299e-03      0.037 (TRAH MIcro)
+  499     dE    -3.078083e-06     1.206927e-04    -1.5821e-03      0.037 (TRAH MIcro)
+  499     dE    -3.139894e-06     1.103216e-04    -1.6286e-03      0.037 (TRAH MIcro)
+  499     dE    -3.178278e-06     6.214265e-05    -1.6584e-03      0.037 (TRAH MIcro)
+  499     dE    -3.195863e-06     6.245588e-05    -1.6720e-03      0.037 (TRAH MIcro)
+  499     dE    -3.215056e-06     6.972112e-05    -1.6870e-03      0.037 (TRAH MIcro)
+  499     dE    -3.222473e-06     4.982188e-05    -1.7090e-03      0.037 (TRAH MIcro)
+  499     dE    -3.248031e-06     4.130483e-05    -1.7149e-03      0.037 (TRAH MIcro)
+  499     dE    -3.256071e-06     4.073721e-05    -1.7220e-03      0.037 (TRAH MIcro)
+  499     dE    -3.262346e-06     2.766811e-05    -1.7277e-03      0.037 (TRAH MIcro)
+  499     dE    -3.264490e-06     1.717293e-05    -1.7297e-03      0.037 (TRAH MIcro)
+  499     dE    -3.265841e-06     1.514149e-05    -1.7310e-03      0.037 (TRAH MIcro)
+  499     dE    -3.266470e-06     1.123098e-05    -1.7317e-03      0.037 (TRAH MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 10387 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-06 10:38:49] FAIL calculations/B12/compact_3d/d_3.0/mult_3
+[2026-05-06 10:38:51] START 30/211: calculations/B12/compact_3d/d_3.0/mult_5
+FAILED rc=0 elapsed_seconds=3659
+--- output.err tail ---
+[vmi3233575:208878] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:208878] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x7c02f23a1f50]
+[vmi3233575:208879] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:208879] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7c02ed02a1ca]
+[vmi3233575:208879] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7c02ed02a28b]
+[vmi3233575:208879] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:208879] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x76d88c3a1f50]
+[vmi3233575:208885] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:208885] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x76d88702a1ca]
+[vmi3233575:208885] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x76d88702a28b]
+[vmi3233575:208885] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:208885] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x73184c3a1f50]
+[vmi3233575:208874] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:208874] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x73184702a1ca]
+[vmi3233575:208874] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x73184702a28b]
+[vmi3233575:208874] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:208874] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 6 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  498     dE    -4.396339e-07     2.130626e-05                           (NR   MIcro)
+  498     dE    -4.407219e-07     1.316679e-05                           (NR   MIcro)
+  498     dE    -4.413092e-07     1.264694e-05                           (NR   MIcro)
+  498     dE    -4.425998e-07     2.563599e-05                           (NR   MIcro)
+  498     dE    -4.452659e-07     3.025317e-05                           (NR   MIcro)
+  499       -295.114817417128     7.681585e-05                           (NR   MAcro)
+  499     dE    -1.183052e-08     4.171843e-05                           (NR   MIcro)
+  499     dE    -2.444892e-08     8.033919e-05                           (NR   MIcro)
+  499     dE    -4.140430e-08     1.035597e-04                           (NR   MIcro)
+  499     dE    -9.552724e-08     1.207319e-04                           (NR   MIcro)
+  499     dE    -1.771409e-07     1.642800e-04                           (NR   MIcro)
+  499     dE    -2.442423e-07     1.391753e-04                           (NR   MIcro)
+  499     dE    -2.852716e-07     9.118427e-05                           (NR   MIcro)
+  499     dE    -3.168670e-07     7.249348e-05                           (NR   MIcro)
+  499     dE    -3.306198e-07     4.550934e-05                           (NR   MIcro)
+  499     dE    -3.393761e-07     4.621650e-05                           (NR   MIcro)
+  499     dE    -3.527011e-07     5.557839e-05                           (NR   MIcro)
+  499     dE    -3.640139e-07     4.672170e-05                           (NR   MIcro)
+  499     dE    -3.740006e-07     4.469427e-05                           (NR   MIcro)
+  499     dE    -3.842338e-07     5.145711e-05                           (NR   MIcro)
+  499     dE    -3.942156e-07     3.401521e-05                           (NR   MIcro)
+  499     dE    -3.990188e-07     2.818077e-05                           (NR   MIcro)
+  499     dE    -4.012437e-07     1.825386e-05                           (NR   MIcro)
+  499     dE    -4.028601e-07     1.449019e-05                           (NR   MIcro)
+  499     dE    -4.036601e-07     1.375978e-05                           (NR   MIcro)
+  499     dE    -4.053527e-07     2.485470e-05                           (NR   MIcro)
+  499     dE    -4.094126e-07     3.558587e-05                           (NR   MIcro)
+  499     dE    -4.154984e-07     3.493906e-05                           (NR   MIcro)
+  499     dE    -4.188324e-07     2.270268e-05                           (NR   MIcro)
+  499     dE    -4.206996e-07     2.437402e-05                           (NR   MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 11959 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-06 11:39:50] FAIL calculations/B12/compact_3d/d_3.0/mult_5
+[2026-05-06 11:39:52] START 31/211: calculations/B12/compact_3d/d_3.5/mult_1
+============================================================
+B12 ORCA sequential run started: 2026-05-06 18:34:02
+ROOT_DIR=calculations/B12
+ORCA_BIN=/opt/orca/orca
+RESUME_MODE=1
+No parallel job dispatch is used; one input.inp is run at a time.
+============================================================
+[2026-05-06 18:34:02] SKIP completed 1/211: calculations/B12/bilayer_3d/d_2.0/mult_1
+[2026-05-06 18:34:02] SKIP completed 2/211: calculations/B12/bilayer_3d/d_2.0/mult_3
+[2026-05-06 18:34:02] SKIP completed 3/211: calculations/B12/bilayer_3d/d_2.0/mult_5
+[2026-05-06 18:34:02] SKIP completed 4/211: calculations/B12/bilayer_3d/d_2.5/mult_1
+[2026-05-06 18:34:02] SKIP completed 5/211: calculations/B12/bilayer_3d/d_2.5/mult_3
+[2026-05-06 18:34:02] SKIP completed 6/211: calculations/B12/bilayer_3d/d_2.5/mult_5
+[2026-05-06 18:34:02] SKIP completed 7/211: calculations/B12/bilayer_3d/d_3.0/mult_1
+[2026-05-06 18:34:02] SKIP completed 8/211: calculations/B12/bilayer_3d/d_3.0/mult_3
+[2026-05-06 18:34:02] SKIP completed 9/211: calculations/B12/bilayer_3d/d_3.0/mult_5
+[2026-05-06 18:34:02] SKIP completed 10/211: calculations/B12/bilayer_3d/d_3.5/mult_1
+[2026-05-06 18:34:02] SKIP completed 11/211: calculations/B12/bilayer_3d/d_3.5/mult_3
+[2026-05-06 18:34:02] SKIP completed 12/211: calculations/B12/bilayer_3d/d_3.5/mult_5
+[2026-05-06 18:34:02] SKIP completed 13/211: calculations/B12/bilayer_3d/d_4.0/mult_1
+[2026-05-06 18:34:03] SKIP completed 14/211: calculations/B12/bilayer_3d/d_4.0/mult_3
+[2026-05-06 18:34:03] SKIP completed 15/211: calculations/B12/bilayer_3d/d_4.0/mult_5
+[2026-05-06 18:34:03] SKIP completed 16/211: calculations/B12/bilayer_3d/d_4.5/mult_1
+[2026-05-06 18:34:03] SKIP completed 17/211: calculations/B12/bilayer_3d/d_4.5/mult_3
+[2026-05-06 18:34:03] SKIP completed 18/211: calculations/B12/bilayer_3d/d_4.5/mult_5
+[2026-05-06 18:34:03] SKIP completed 19/211: calculations/B12/bilayer_3d/d_5.0/mult_1
+[2026-05-06 18:34:03] SKIP completed 20/211: calculations/B12/bilayer_3d/d_5.0/mult_3
+[2026-05-06 18:34:03] SKIP completed 21/211: calculations/B12/bilayer_3d/d_5.0/mult_5
+[2026-05-06 18:34:03] SKIP completed 22/211: calculations/B12/compact_3d/d_2.0/mult_1
+[2026-05-06 18:34:03] SKIP completed 23/211: calculations/B12/compact_3d/d_2.0/mult_3
+[2026-05-06 18:34:03] SKIP completed 24/211: calculations/B12/compact_3d/d_2.0/mult_5
+[2026-05-06 18:34:03] SKIP completed 25/211: calculations/B12/compact_3d/d_2.5/mult_1
+[2026-05-06 18:34:03] START 26/211: calculations/B12/compact_3d/d_2.5/mult_3
+FAILED rc=0 elapsed_seconds=37
+--- output.err tail ---
+[vmi3233575:253012] [12] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:253012] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z16AbortMessageArgsPKciz+0xcc)[0x73ab84b39dfc]
+[vmi3233575:253011] [ 6] /opt/orca/orca_leanscf_mpi[0x44203c]
+[vmi3233575:253011] [ 7] /opt/orca/orca_leanscf_mpi[0x448aad]
+[vmi3233575:253011] [ 8] /opt/orca/orca_leanscf_mpi[0x47bb20]
+[vmi3233575:253011] [ 9] /opt/orca/orca_leanscf_mpi[0x426ad7]
+[vmi3233575:253011] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x73ab83a2a1ca]
+[vmi3233575:253011] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x73ab83a2a28b]
+[vmi3233575:253011] [12] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:253011] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z16AbortMessageArgsPKciz+0xcc)[0x775811139dfc]
+[vmi3233575:253014] [ 6] /opt/orca/orca_leanscf_mpi[0x44203c]
+[vmi3233575:253014] [ 7] /opt/orca/orca_leanscf_mpi[0x448aad]
+[vmi3233575:253014] [ 8] /opt/orca/orca_leanscf_mpi[0x47bb20]
+[vmi3233575:253014] [ 9] /opt/orca/orca_leanscf_mpi[0x426ad7]
+[vmi3233575:253014] [10] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x77581002a1ca]
+[vmi3233575:253014] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x77581002a28b]
+[vmi3233575:253014] [12] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:253014] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+INITIAL GUESS: MODEL POTENTIAL
+------------------------------
+Loading Hartree-Fock densities                     ... done
+Calculating cut-offs                               ... done
+Initializing the effective Hamiltonian             ... done
+Setting up the integral package (SHARK)            ... done
+Starting the Coulomb interaction                   ... done (   1.0 sec)
+Making the grid                                    ... done (   7.8 sec)
+Mapping shells                                     ... done
+Starting the XC term evaluation                    ... done (   0.2 sec)
+  promolecular density results
+     # of electrons  =     60.000405721
+     EX              =    -43.912611684
+     EC              =     -1.418295817
+     EX+EC           =    -45.330907501
+Transforming the Hamiltonian                       ... done (   0.9 sec)
+Diagonalizing the Hamiltonian                      ... done (   0.7 sec)
+Back transforming the eigenvectors                 ... done (   0.5 sec)
+Now organizing SCF variables                       ... done
+                      ------------------
+                      INITIAL GUESS DONE (  13.2 sec)
+                      ------------------
+             **** ENERGY FILE WAS UPDATED (input.en.tmp) ****
+Finished Guess after  17.8 sec
+Maximum memory used throughout the entire GUESS-calculation: 6.9 MB
+
+
+           ************************************************************
+           *        Program running with 8 parallel MPI-processes     *
+           *              working on a common directory               *
+           ************************************************************
+
+-------------------------------------------------------------------------------------------
+                                      ORCA LEAN-SCF
+                              memory conserving SCF solver
+-------------------------------------------------------------------------------------------
+
+----------------------------------------D-I-I-S--------------------------------------------
+Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
+-------------------------------------------------------------------------------------------
+               ***  Starting incremental Fock matrix formation  ***
+    1    -292.6615479662785901     0.00e+00  1.87e-02  1.92e-01  1.36e-01  0.700  10.5
+Warning: op=0 Small HOMO/LUMO gap (   0.000) - skipping pre-diagonalization
+         Will do a full diagonalization
+Error MatrixLife: cannot recover matrix(input.C0.tmp). res=1
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-06 18:34:41] FAIL calculations/B12/compact_3d/d_2.5/mult_3
+[2026-05-06 18:34:43] SKIP completed 27/211: calculations/B12/compact_3d/d_2.5/mult_5
+[2026-05-06 18:34:43] SKIP completed 28/211: calculations/B12/compact_3d/d_3.0/mult_1
+[2026-05-06 18:34:43] START 29/211: calculations/B12/compact_3d/d_3.0/mult_3
+FAILED rc=0 elapsed_seconds=17649
+--- output.err tail ---
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x758cdd42a1ca]
+[vmi3233575:253398] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x758cdd42a28b]
+[vmi3233575:253398] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:253398] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x761f6282a28b]
+[vmi3233575:253395] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:253395] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x73578ac2a1ca]
+[vmi3233575:253400] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x73578ac2a28b]
+[vmi3233575:253400] [ 8] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x706186a2a28b]
+[vmi3233575:253401] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:253401] *** End of error message ***
+[vmi3233575:253399] *** End of error message ***
+/opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:253400] *** End of error message ***
+[vmi3233575:253396] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:253396] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x71831cc2a1ca]
+[vmi3233575:253396] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x71831cc2a28b]
+[vmi3233575:253396] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:253396] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 4 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  498     dE    -1.204363e-06     2.189990e-05    -5.9293e-04      0.033 (TRAH MIcro)
+  498     dE    -1.211316e-06     3.629821e-05    -5.9409e-04      0.033 (TRAH MIcro)
+  498     dE    -1.217989e-06     1.815460e-05    -5.9513e-04      0.033 (TRAH MIcro)
+  498     dE    -1.221239e-06     1.677666e-05    -5.9562e-04      0.033 (TRAH MIcro)
+  498     dE    -1.223574e-06     1.318891e-05    -5.9598e-04      0.033 (TRAH MIcro)
+  499       -295.114545423770     7.734097e-05                           (NR   MAcro)
+  499     dE    -7.794666e-09     1.740308e-05                           (NR   MIcro)
+  499     dE    -8.798001e-09     2.103010e-05                           (NR   MIcro)
+  499     dE    -1.411062e-08     5.436648e-05                           (NR   MIcro)
+  499     dE    -3.111969e-08     6.727440e-05                           (NR   MIcro)
+  499     dE    -3.979109e-08     5.224709e-05                           (NR   MIcro)
+  499     dE    -4.877966e-08     4.682544e-05                           (NR   MIcro)
+  499     dE    -5.946937e-08     4.391051e-05                           (NR   MIcro)
+  499     dE    -6.924987e-08     5.076484e-05                           (NR   MIcro)
+  499     dE    -9.085490e-08     7.329245e-05                           (NR   MIcro)
+  499     dE    -1.177298e-07     8.653950e-05                           (NR   MIcro)
+  499     dE    -2.805339e-07     2.708407e-04                           (NR   MIcro)
+  499     dE    -2.225570e-06     1.715601e-03                           (NR   MIcro)
+  499     dE     3.179182e-07     3.238482e-04                           (NR   MIcro)
+  499     dE     9.026568e-08     1.211376e-04                           (NR   MIcro)
+  499     dE     6.127436e-08     6.313321e-05                           (NR   MIcro)
+  499     dE     4.525698e-08     5.522162e-05                           (NR   MIcro)
+  499     dE     3.608123e-08     4.420277e-05                           (NR   MIcro)
+  499     dE     2.954135e-08     3.477065e-05                           (NR   MIcro)
+  499     dE     2.594942e-08     3.074177e-05                           (NR   MIcro)
+  499     dE     2.398856e-08     1.900573e-05                           (NR   MIcro)
+  499     dE     2.253329e-08     2.725982e-05                           (NR   MIcro)
+  499     dE     2.042599e-08     2.643389e-05                           (NR   MIcro)
+  499     dE     1.651056e-08     4.952709e-05                           (NR   MIcro)
+  499     dE     1.036782e-08     4.030326e-05                           (NR   MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 9753 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-06 23:28:52] FAIL calculations/B12/compact_3d/d_3.0/mult_3
+[2026-05-06 23:28:54] START 30/211: calculations/B12/compact_3d/d_3.0/mult_5
+FAILED rc=0 elapsed_seconds=3997
+--- output.err tail ---
+[vmi3233575:262300] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:262300] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7e750d62a1ca]
+[vmi3233575:262300] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7e750d62a28b]
+[vmi3233575:262300] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:262300] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x7c3ea79a1f50]
+[vmi3233575:262293] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:262293] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7c3ea262a1ca]
+[vmi3233575:262293] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7c3ea262a28b]
+[vmi3233575:262293] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:262293] *** End of error message ***
+[vmi3233575:262297] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:262297] *** End of error message ***
+[vmi3233575:262306] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:262306] *** End of error message ***
+[vmi3233575:262294] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:262294] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x772ca202a1ca]
+[vmi3233575:262294] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x772ca202a28b]
+[vmi3233575:262294] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:262294] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  498     dE    -4.075600e-07     2.521446e-05                           (NR   MIcro)
+  498     dE    -4.114405e-07     3.471565e-05                           (NR   MIcro)
+  498     dE    -4.175447e-07     3.747295e-05                           (NR   MIcro)
+  498     dE    -4.214059e-07     2.347195e-05                           (NR   MIcro)
+  498     dE    -4.231148e-07     2.151611e-05                           (NR   MIcro)
+  499       -295.114817392463     7.685797e-05                           (NR   MAcro)
+  499     dE    -1.130003e-08     4.232175e-05                           (NR   MIcro)
+  499     dE    -1.988011e-08     7.739560e-05                           (NR   MIcro)
+  499     dE    -4.750717e-08     1.439732e-04                           (NR   MIcro)
+  499     dE    -1.772934e-07     1.358071e-04                           (NR   MIcro)
+  499     dE    -2.263852e-07     8.461596e-05                           (NR   MIcro)
+  499     dE    -2.612248e-07     9.721162e-05                           (NR   MIcro)
+  499     dE    -2.880348e-07     9.933497e-05                           (NR   MIcro)
+  499     dE    -3.264728e-07     1.076050e-04                           (NR   MIcro)
+  499     dE    -3.625009e-07     7.991451e-05                           (NR   MIcro)
+  499     dE    -3.854049e-07     6.687545e-05                           (NR   MIcro)
+  499     dE    -4.002421e-07     3.939680e-05                           (NR   MIcro)
+  499     dE    -4.045738e-07     2.627813e-05                           (NR   MIcro)
+  499     dE    -4.079126e-07     2.335058e-05                           (NR   MIcro)
+  499     dE    -4.119213e-07     3.372411e-05                           (NR   MIcro)
+  499     dE    -4.170334e-07     3.522641e-05                           (NR   MIcro)
+  499     dE    -4.235073e-07     3.556045e-05                           (NR   MIcro)
+  499     dE    -4.283581e-07     3.565167e-05                           (NR   MIcro)
+  499     dE    -4.361021e-07     4.369743e-05                           (NR   MIcro)
+  499     dE    -4.406834e-07     2.775243e-05                           (NR   MIcro)
+  499     dE    -4.431248e-07     2.104518e-05                           (NR   MIcro)
+  499     dE    -4.441674e-07     1.272256e-05                           (NR   MIcro)
+  499     dE    -4.447125e-07     1.261847e-05                           (NR   MIcro)
+  499     dE    -4.463267e-07     3.254547e-05                           (NR   MIcro)
+  499     dE    -4.499767e-07     3.342621e-05                           (NR   MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 11924 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-07 00:35:31] FAIL calculations/B12/compact_3d/d_3.0/mult_5
+[2026-05-07 00:35:33] START 31/211: calculations/B12/compact_3d/d_3.5/mult_1
+SUCCESS elapsed_seconds=14570
+[2026-05-07 04:38:23] OK calculations/B12/compact_3d/d_3.5/mult_1
+[2026-05-07 04:38:25] START 32/211: calculations/B12/compact_3d/d_3.5/mult_3
+FAILED rc=0 elapsed_seconds=2813
+--- output.err tail ---
+[vmi3233575:314140] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x796c56c2a1ca]
+[vmi3233575:314140] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x796c56c2a28b]
+[vmi3233575:314140] [ 8] [vmi3233575:314143] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7d3f7642a28b]
+[vmi3233575:314144] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:314144] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7d84b902a28b]
+[vmi3233575:314141] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:314141] *** End of error message ***
+[vmi3233575:314145] *** End of error message ***
+/opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:314140] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x71b5a882a28b]
+[vmi3233575:314142] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:314142] *** End of error message ***
+[vmi3233575:314146] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:314146] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x78fa01a2a1ca]
+[vmi3233575:314146] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x78fa01a2a28b]
+[vmi3233575:314146] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:314146] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  498     dE    -2.504626e-06     1.713774e-04    -3.9265e-04      0.052 (TRAH MIcro)
+  498     dE    -2.952572e-06     2.272552e-04    -4.1730e-04      0.059 (TRAH MIcro)
+  498     dE    -3.438531e-06     2.217690e-04    -4.3915e-04      0.065 (TRAH MIcro)
+  498     dE    -3.754651e-06     1.989590e-04    -4.6649e-04      0.068 (TRAH MIcro)
+  498     dE    -3.848662e-06     1.297088e-04    -4.9294e-04      0.068 (TRAH MIcro)
+  498     dE    -3.872958e-06     3.614056e-05    -4.9975e-04      0.068 (TRAH MIcro)
+  499       -295.086112870876     2.262236e-04                     0.068 (TRAH MAcro)   No
+  499     dE    -4.773180e-08     2.977556e-05    -4.7732e-08      0.000 (TRAH MIcro)
+  499     dE    -5.288764e-08     4.837016e-05    -5.2888e-08      0.000 (TRAH MIcro)
+  499     dE    -9.625217e-08     1.772177e-04    -9.6251e-08      0.004 (TRAH MIcro)
+  499     dE    -2.113325e-07     1.265224e-04    -2.1130e-07      0.013 (TRAH MIcro)
+  499     dE    -2.921152e-07     1.684281e-04    -2.9201e-07      0.019 (TRAH MIcro)
+  499     dE    -4.191312e-07     1.443476e-04    -4.1877e-07      0.029 (TRAH MIcro)
+  499     dE    -4.845795e-07     1.059108e-04    -4.8400e-07      0.035 (TRAH MIcro)
+  499     dE    -5.576730e-07     1.513121e-04    -5.5676e-07      0.041 (TRAH MIcro)
+  499     dE    -7.507070e-07     3.238820e-04    -7.4831e-07      0.057 (TRAH MIcro)
+  499     dE    -1.508038e-06     3.494409e-04    -2.0727e-04      0.060 (TRAH MIcro)
+  499     dE    -2.227373e-06     3.099173e-04    -3.1109e-04      0.068 (TRAH MIcro)
+  499     dE    -1.355044e-06     2.081397e-04    -5.0803e-04      0.041 (TRAH MIcro)
+  499     dE    -2.129201e-06     1.975832e-04    -5.8336e-04      0.052 (TRAH MIcro)
+  499     dE    -2.410758e-06     1.075428e-04    -6.0417e-04      0.055 (TRAH MIcro)
+  499     dE    -2.628818e-06     1.417607e-04    -6.1865e-04      0.057 (TRAH MIcro)
+  499     dE    -2.895954e-06     1.178044e-04    -6.3473e-04      0.060 (TRAH MIcro)
+  499     dE    -3.185538e-06     1.293572e-04    -6.5036e-04      0.063 (TRAH MIcro)
+  499     dE    -3.328005e-06     9.299692e-05    -6.5745e-04      0.064 (TRAH MIcro)
+  499     dE    -3.423388e-06     8.583808e-05    -6.6198e-04      0.065 (TRAH MIcro)
+  499     dE    -3.531103e-06     1.129402e-04    -6.6687e-04      0.066 (TRAH MIcro)
+  499     dE    -3.633150e-06     1.109559e-04    -6.7122e-04      0.067 (TRAH MIcro)
+  499     dE    -3.796650e-06     2.436723e-04    -6.8524e-04      0.068 (TRAH MIcro)
+  499     dE    -3.881804e-06     7.885053e-05    -7.0723e-04      0.068 (TRAH MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 11316 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-07 05:25:18] FAIL calculations/B12/compact_3d/d_3.5/mult_3
+[2026-05-07 05:25:20] START 33/211: calculations/B12/compact_3d/d_3.5/mult_5
+FAILED rc=0 elapsed_seconds=2123
+--- output.err tail ---
+[vmi3233575:315919] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x7fea2dfa1f50]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x721528a2a28b]
+[vmi3233575:315920] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:315920] *** End of error message ***
+[vmi3233575:315926] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:315926] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7a1f5f42a28b]
+[vmi3233575:315917] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:315917] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x783b79e2a28b]
+[vmi3233575:315918] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:315918] *** End of error message ***
+/opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:315922] *** End of error message ***
+[vmi3233575:315924] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:315924] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7fea28c2a1ca]
+[vmi3233575:315924] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7fea28c2a28b]
+[vmi3233575:315924] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:315924] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 6 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  498     dE    -2.652280e-06     1.700850e-04    -2.1450e-04      0.076 (TRAH MIcro)
+  498     dE    -2.084140e-06     1.183091e-04    -3.0430e-04      0.057 (TRAH MIcro)
+  498     dE    -2.207351e-06     1.022112e-04    -3.1053e-04      0.059 (TRAH MIcro)
+  498     dE    -2.280514e-06     7.787514e-05    -3.1401e-04      0.060 (TRAH MIcro)
+  498     dE    -2.398309e-06     1.315885e-04    -3.1922e-04      0.062 (TRAH MIcro)
+  498     dE    -2.485410e-06     6.728355e-05    -3.2283e-04      0.064 (TRAH MIcro)
+  499       -295.086137870056     2.073879e-04                     0.076 (TRAH MAcro)   No
+  499     dE    -4.763195e-08     5.487714e-05    -4.7632e-08      0.000 (TRAH MIcro)
+  499     dE    -6.389682e-08     8.912167e-05    -6.3897e-08      0.001 (TRAH MIcro)
+  499     dE    -2.242084e-07     2.303745e-04    -2.2419e-07      0.008 (TRAH MIcro)
+  499     dE    -3.649331e-07     1.552708e-04    -3.6486e-07      0.014 (TRAH MIcro)
+  499     dE    -4.693650e-07     1.598100e-04    -4.6920e-07      0.019 (TRAH MIcro)
+  499     dE    -5.611932e-07     1.446335e-04    -5.6089e-07      0.023 (TRAH MIcro)
+  499     dE    -6.321970e-07     1.158628e-04    -6.3175e-07      0.027 (TRAH MIcro)
+  499     dE    -6.808035e-07     1.157193e-04    -6.8023e-07      0.029 (TRAH MIcro)
+  499     dE    -7.542561e-07     1.722054e-04    -7.5345e-07      0.033 (TRAH MIcro)
+  499     dE    -8.705274e-07     1.367490e-04    -8.6921e-07      0.039 (TRAH MIcro)
+  499     dE    -9.204244e-07     1.050224e-04    -9.1883e-07      0.042 (TRAH MIcro)
+  499     dE    -1.002620e-06     2.034421e-04    -1.0005e-06      0.046 (TRAH MIcro)
+  499     dE    -1.154323e-06     1.582750e-04    -1.1508e-06      0.055 (TRAH MIcro)
+  499     dE    -1.241817e-06     1.536717e-04    -1.2373e-06      0.060 (TRAH MIcro)
+  499     dE    -1.448980e-06     3.324409e-04    -1.4413e-06      0.073 (TRAH MIcro)
+  499     dE    -1.888369e-06     2.859794e-04    -8.4861e-05      0.076 (TRAH MIcro)
+  499     dE    -2.089342e-06     1.907411e-04    -1.2719e-04      0.076 (TRAH MIcro)
+  499     dE    -2.176479e-06     1.379104e-04    -1.4570e-04      0.076 (TRAH MIcro)
+  499     dE    -2.246450e-06     1.262138e-04    -1.6066e-04      0.076 (TRAH MIcro)
+  499     dE    -2.285581e-06     1.121807e-04    -1.6907e-04      0.076 (TRAH MIcro)
+  499     dE    -2.327308e-06     1.219452e-04    -1.7809e-04      0.076 (TRAH MIcro)
+  499     dE    -2.359365e-06     2.102883e-04    -2.0289e-04      0.074 (TRAH MIcro)
+  499     dE    -1.872817e-06     4.717917e-05    -2.7440e-04      0.057 (TRAH MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 8364 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-07 06:00:43] FAIL calculations/B12/compact_3d/d_3.5/mult_5
+[2026-05-07 06:00:45] START 34/211: calculations/B12/compact_3d/d_4.0/mult_1
+FAILED rc=0 elapsed_seconds=5402
+--- output.err tail ---
+[vmi3233575:331217] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7e0919e2a28b]
+[vmi3233575:331217] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:331217] *** End of error message ***
+/opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:331215] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x76633de2a1ca]
+[vmi3233575:331215] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x76633de2a28b]
+[vmi3233575:331215] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:331215] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x76f6329a1f50]
+[vmi3233575:331208] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:331208] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x76f62d62a1ca]
+[vmi3233575:331208] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x76f62d62a28b]
+[vmi3233575:331208] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:331208] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x7fa4807a1f50]
+[vmi3233575:331216] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:331216] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7fa47b42a1ca]
+[vmi3233575:331216] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7fa47b42a28b]
+[vmi3233575:331216] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:331216] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 7 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  498     dE    -1.672801e-09     5.220332e-05                           (NR   MIcro)
+  498     dE    -3.198957e-09     7.677421e-05                           (NR   MIcro)
+  498     dE    -3.799356e-09     8.308622e-05                           (NR   MIcro)
+  498     dE    -9.429392e-09     1.770632e-04                           (NR   MIcro)
+  498     dE    -1.794150e-08     2.576120e-04                           (NR   MIcro)
+  498     dE    -6.038587e-08     3.264797e-04                           (NR   MIcro)
+  498     dE    -1.097067e-07     2.965471e-04                           (NR   MIcro)
+  498     dE    -1.371718e-07     1.638464e-04                           (NR   MIcro)
+  498     dE    -1.429896e-07     1.445789e-04                           (NR   MIcro)
+  498     dE    -1.540293e-07     1.757345e-04                           (NR   MIcro)
+  498     dE    -1.653454e-07     2.014663e-04                           (NR   MIcro)
+  498     dE    -1.825133e-07     1.458058e-04                           (NR   MIcro)
+  498     dE    -1.873489e-07     7.537919e-05                           (NR   MIcro)
+  498     dE    -1.887065e-07     5.123741e-05                           (NR   MIcro)
+  498     dE    -1.911660e-07     6.925480e-05                           (NR   MIcro)
+  498     dE    -1.939137e-07     6.082890e-05                           (NR   MIcro)
+  498     dE    -1.960383e-07     6.604442e-05                           (NR   MIcro)
+  498     dE    -1.977809e-07     8.589242e-05                           (NR   MIcro)
+  498     dE    -2.009011e-07     1.067671e-04                           (NR   MIcro)
+  498     dE    -2.079323e-07     1.344509e-04                           (NR   MIcro)
+  498     dE    -2.121047e-07     9.628708e-05                           (NR   MIcro)
+  498     dE    -2.136435e-07     4.373864e-05                           (NR   MIcro)
+  498     dE    -2.145111e-07     3.375860e-05                           (NR   MIcro)
+  498     dE    -2.159187e-07     6.253749e-05                           (NR   MIcro)
+  499       -295.337470201233     8.867830e-04                16133404279.640 (TRAH MAcro)   No
+WARNING : small    HOMO - LUMO gap : 0.012602
+WARNING : small    HOMO - LUMO gap : 0.012602
+  499     dE    -1.527795e-07     1.220632e-04    -3.0556e-07      0.000 (TRAH MIcro)
+  499     dE    -1.560970e-07     9.034323e-05    -3.1219e-07      0.000 (TRAH MIcro)
+  499     dE    -1.586180e-07     5.715016e-05    -3.1724e-07      0.000 (TRAH MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 6535 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-07 07:30:48] FAIL calculations/B12/compact_3d/d_4.0/mult_1
+[2026-05-07 07:30:50] START 35/211: calculations/B12/compact_3d/d_4.0/mult_3
+FAILED rc=0 elapsed_seconds=1803
+--- output.err tail ---
+[vmi3233575:332076] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x703ed8a2a28b]
+[vmi3233575:332076] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:332078] *** End of error message ***
+[vmi3233575:332076] *** End of error message ***
+/opt/orca/lib/liborca_tools_6_1_1_mpi.so.6(_Z9PAL_Aborti+0x20)[0x74bea27a1f50]
+[vmi3233575:332075] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:332075] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x74be9d42a1ca]
+[vmi3233575:332075] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x74be9d42a28b]
+[vmi3233575:332075] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:332075] *** End of error message ***
+[vmi3233575:332079] [ 5] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:332079] /opt/orca/orca_leanscf_mpi[0x426c3f]
+[vmi3233575:332081] [ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7f377d62a1ca]
+[vmi3233575:332081] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7f377d62a28b]
+[vmi3233575:332081] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:332081] *** End of error message ***
+[ 6] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7ccafe42a1ca]
+[vmi3233575:332079] [ 7] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7ccafe42a28b]
+[vmi3233575:332079] [ 8] /opt/orca/orca_leanscf_mpi[0x426116]
+[vmi3233575:332079] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 4 with PID 0 on node vmi3233575 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+--- output.out tail ---
+  497     dE    -2.742252e-03     5.781749e-03    -2.6830e-03      0.149 (TRAH MIcro)
+  497     dE    -2.830125e-03     3.614496e-03    -2.7528e-03      0.168 (TRAH MIcro)
+  497     dE    -2.937514e-03     4.490978e-03    -2.8225e-03      0.202 (TRAH MIcro)
+  497     dE    -3.055937e-03     3.462997e-03    -5.4140e-03      0.226 (TRAH MIcro)
+  498       -295.076596355356     3.987036e-03                     0.271 (TRAH MAcro)   No
+  498     dE    -4.487015e-05     3.033106e-03    -4.4858e-05      0.017 (TRAH MIcro)
+  498     dE    -1.282447e-04     5.375942e-03    -1.2751e-04      0.076 (TRAH MIcro)
+  498     dE    -3.522132e-04     8.727409e-03    -3.3068e-04      0.255 (TRAH MIcro)
+  498     dE    -4.710677e-04     2.962337e-03    -1.8578e-03      0.271 (TRAH MIcro)
+  498     dE    -4.935204e-04     1.908975e-03    -2.2238e-03      0.271 (TRAH MIcro)
+  498     dE    -5.042650e-04     1.369992e-03    -2.4100e-03      0.271 (TRAH MIcro)
+  498     dE    -4.910337e-04     5.300189e-04    -2.7075e-03      0.258 (TRAH MIcro)
+  498     dE    -4.999473e-04     1.225591e-03    -2.7274e-03      0.262 (TRAH MIcro)
+  498     dE    -5.115136e-04     7.913847e-04    -2.7490e-03      0.267 (TRAH MIcro)
+  498     dE    -5.157843e-04     3.077430e-04    -2.7557e-03      0.269 (TRAH MIcro)
+  499       -295.077114884112     2.843836e-03                     0.325 (TRAH MAcro)   No
+  499     dE    -2.398973e-05     2.498586e-03    -2.3983e-05      0.016 (TRAH MIcro)
+  499     dE    -1.373531e-04     7.094814e-03    -1.3390e-04      0.161 (TRAH MIcro)
+  499     dE    -2.928894e-04     3.202804e-03    -3.7260e-04      0.325 (TRAH MIcro)
+  499     dE    -3.109861e-04     1.194215e-03    -5.5799e-04      0.325 (TRAH MIcro)
+  499     dE    -3.157603e-04     9.754964e-04    -6.0279e-04      0.325 (TRAH MIcro)
+  499     dE    -3.222303e-04     1.278102e-03    -6.7428e-04      0.325 (TRAH MIcro)
+  499     dE    -3.268990e-04     9.649584e-04    -7.3105e-04      0.325 (TRAH MIcro)
+  499     dE    -3.343776e-04     1.844687e-03    -8.3569e-04      0.325 (TRAH MIcro)
+  499     dE    -3.420512e-04     9.798786e-04    -9.6021e-04      0.325 (TRAH MIcro)
+  499     dE    -3.440477e-04     5.398014e-04    -9.9507e-04      0.325 (TRAH MIcro)
+  499     dE    -3.462575e-04     9.705310e-04    -1.0360e-03      0.325 (TRAH MIcro)
+  499     dE    -3.518308e-04     1.047561e-03    -1.1505e-03      0.325 (TRAH MIcro)
+  499     dE    -3.539716e-04     5.535303e-04    -1.1979e-03      0.325 (TRAH MIcro)
+  499     dE    -3.544845e-04     2.561271e-04    -1.2096e-03      0.325 (TRAH MIcro)
+
+               *****************************************************
+               *                      ERROR                        *
+               *        SCF NOT CONVERGED AFTER 8289 CYCLES         *
+               *****************************************************
+
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 1]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 2]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 3]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 4]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 5]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 6]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 7]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+[file orca_leanscf/orca_leanscf.cpp, line 306, Process 0]: Error (ORCA_LEANSCF): unfortunately, the SCF has not converged. There may be a way out but we have to stop here 
+
+ORCA finished by error termination in LEANSCF
+Calling Command: mpirun -np 8  /opt/orca/orca_leanscf_mpi input.gbw input 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
+[2026-05-07 08:00:53] FAIL calculations/B12/compact_3d/d_4.0/mult_3
+[2026-05-07 08:00:55] START 36/211: calculations/B12/compact_3d/d_4.0/mult_5
