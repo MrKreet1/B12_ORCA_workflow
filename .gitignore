@@ -1,8 +1,31 @@
 *.log
 final_refinement.log
+planar_controls.log
 input.inp.bak
 input.inp.before_nori
 input.inp.*backup
 input.inp.backup_before_*
 __pycache__/
 *.pyc
+
+# Heavy ORCA binary/intermediate files
+*.gbw
+*.hess
+*.engrad
+*.tmp
+*.tmp.*
+*.prop
+*.densities
+*.qro
+*.uno
+*.unso
+*.property.txt
+*.densitiesinfo
+*.bibtex
+input.opt
+input.xyz
+input_trj.xyz
+output.err
+
+# Raw ORCA logs are optional; keep ignored unless explicitly needed.
+# calculations/**/output.out

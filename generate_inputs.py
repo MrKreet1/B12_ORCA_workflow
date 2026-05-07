@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import json
 import math
+import os
 import random
 from dataclasses import dataclass
 from pathlib import Path
@@ -44,6 +45,8 @@ MAXCORE_MB = 2500
 METHOD = "PBE0"
 DISPERSION = "D3BJ"
 BASIS = "def2-SVP"
+PRELIMINARY_RUN_TYPE = os.environ.get("B12_PRELIMINARY_RUN_TYPE", "Opt Freq")
+ALLOWED_PRELIMINARY_RUN_TYPES = {"Opt", "Opt Freq"}
 
 # Alternative preliminary level, not used by default. To use it, change METHOD.
 ALTERNATIVE_METHOD_COMMENT = "Alternative screening level: B3LYP-D3BJ/def2-SVP"
@@ -344,7 +347,7 @@ def orca_input_text(multiplicity: int) -> str:
 # {ALTERNATIVE_METHOD_COMMENT}
 # Run with: orca input.inp > output.out
 
-! {METHOD} {DISPERSION} {BASIS} Opt Freq TightSCF NoAutoStart XYZFile
+! {METHOD} {DISPERSION} {BASIS} {PRELIMINARY_RUN_TYPE} TightSCF NoAutoStart XYZFile
 
 %pal
 nprocs {NPROCS}
@@ -594,7 +597,7 @@ def main() -> None:
                     "basis": BASIS,
                     "nprocs": NPROCS,
                     "maxcore_MB_per_process": MAXCORE_MB,
-                    "run_type": "Opt Freq",
+                    "run_type": PRELIMINARY_RUN_TYPE,
                     **stats,
                 }
                 write_metadata(calc_dir / "metadata.json", metadata)

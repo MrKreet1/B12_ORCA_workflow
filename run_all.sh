@@ -9,6 +9,7 @@ ROOT_DIR="${ROOT_DIR:-calculations/B12}"
 LOG_FILE="${LOG_FILE:-run_all.log}"
 RESUME_MODE="${RESUME_MODE:-1}"
 SLEEP_BETWEEN_JOBS="${SLEEP_BETWEEN_JOBS:-2}"
+TIME_LIMIT="${TIME_LIMIT:-4h}"
 
 # For parallel ORCA jobs using %pal, a full path is safer than a bare "orca".
 # Override when needed:
@@ -34,6 +35,7 @@ start_ts="$(date '+%Y-%m-%d %H:%M:%S')"
   echo "ROOT_DIR=${ROOT_DIR}"
   echo "ORCA_BIN=${ORCA_BIN}"
   echo "RESUME_MODE=${RESUME_MODE}"
+  echo "TIME_LIMIT=${TIME_LIMIT}"
   echo "No parallel job dispatch is used; one input.inp is run at a time."
   echo "============================================================"
 } | tee -a "${LOG_FILE}"
@@ -80,7 +82,7 @@ for input_path in "${INPUTS[@]}"; do
     rm -f ./*.tmp ./*.tmp.* ./input.tmp* ./input.*.tmp 2>/dev/null || true
 
     job_start="$(date +%s)"
-    "${ORCA_BIN}" input.inp > output.out 2> output.err
+    timeout "${TIME_LIMIT}" "${ORCA_BIN}" input.inp > output.out 2> output.err
     rc=$?
     job_end="$(date +%s)"
     elapsed=$((job_end - job_start))
@@ -88,6 +90,11 @@ for input_path in "${INPUTS[@]}"; do
     if [[ "${rc}" -eq 0 ]] && grep -q "ORCA TERMINATED NORMALLY" output.out; then
       echo "SUCCESS elapsed_seconds=${elapsed}"
       exit 0
+    fi
+
+    if [[ "${rc}" -eq 124 ]]; then
+      echo "TIMEOUT limit=${TIME_LIMIT} elapsed_seconds=${elapsed}"
+      exit 1
     fi
 
     echo "FAILED rc=${rc} elapsed_seconds=${elapsed}"
