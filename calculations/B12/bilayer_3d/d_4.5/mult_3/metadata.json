@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "bilayer_3d",
+  "structure_family": "3d",
   "description": "Two staggered non-planar B6 layers.",
   "initial_distance_A": 4.5,
   "charge": 0,

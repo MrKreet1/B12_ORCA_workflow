@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "distorted_icosahedron_02",
+  "structure_family": "3d",
   "description": "Low-symmetry distorted icosahedron variant 02.",
   "initial_distance_A": 3.5,
   "charge": 0,

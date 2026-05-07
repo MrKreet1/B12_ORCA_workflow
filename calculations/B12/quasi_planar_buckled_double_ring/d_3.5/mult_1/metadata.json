@@ -1,0 +1,18 @@
+{
+  "cluster": "B12",
+  "structure_name": "quasi_planar_buckled_double_ring",
+  "structure_family": "quasi_planar",
+  "description": "Low-amplitude buckled B6@B6 control motif.",
+  "initial_distance_A": 3.5,
+  "charge": 0,
+  "multiplicity": 1,
+  "method": "PBE0",
+  "dispersion": "D3BJ",
+  "basis": "def2-SVP",
+  "nprocs": 8,
+  "maxcore_MB_per_process": 2500,
+  "run_type": "Opt Freq",
+  "min_distance_A": 3.5027988808951025,
+  "max_distance_A": 12.153419271957995,
+  "mean_distance_A": 6.860986100667751
+}

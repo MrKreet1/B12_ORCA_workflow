@@ -1,0 +1,18 @@
+{
+  "cluster": "B12",
+  "structure_name": "planar_triangular_patch",
+  "structure_family": "planar",
+  "description": "Compact planar triangular-lattice B12 control motif.",
+  "initial_distance_A": 4.0,
+  "charge": 0,
+  "multiplicity": 1,
+  "method": "PBE0",
+  "dispersion": "D3BJ",
+  "basis": "def2-SVP",
+  "nprocs": 8,
+  "maxcore_MB_per_process": 2500,
+  "run_type": "Opt Freq",
+  "min_distance_A": 3.9999999999999996,
+  "max_distance_A": 14.422205101855956,
+  "mean_distance_A": 7.323971527140223
+}

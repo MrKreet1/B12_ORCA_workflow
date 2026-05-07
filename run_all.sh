@@ -38,7 +38,10 @@ start_ts="$(date '+%Y-%m-%d %H:%M:%S')"
   echo "============================================================"
 } | tee -a "${LOG_FILE}"
 
-mapfile -t INPUTS < <(find "${ROOT_DIR}" -type f -name input.inp | sort)
+mapfile -t INPUTS < <(find "${ROOT_DIR}" -type f -name input.inp \
+  ! -path "*/final_refinement/*" \
+  ! -path "*/final_refinement_template/*" \
+  | sort)
 
 if [[ "${#INPUTS[@]}" -eq 0 ]]; then
   echo "ERROR: no input.inp files found under ${ROOT_DIR}" | tee -a "${LOG_FILE}"

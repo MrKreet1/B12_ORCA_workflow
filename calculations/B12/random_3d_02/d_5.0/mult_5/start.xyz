@@ -1,5 +1,5 @@
 12
-B12 random_3d_02; neutral charge=0; multiplicity=5; 3D initial geometry; nominal d=5.0 A; Random 3D B12 cloud with controlled minimum distance 02.
+B12 random_3d_02; neutral charge=0; multiplicity=5; 3d initial geometry; nominal d=5.0 A; Random 3D B12 cloud with controlled minimum distance 02.
 B        0.04887920      -2.85283329       5.35896702
 B        1.80900755      -0.84306686      -6.15859898
 B       -1.91486205       0.55221992      -1.59908327

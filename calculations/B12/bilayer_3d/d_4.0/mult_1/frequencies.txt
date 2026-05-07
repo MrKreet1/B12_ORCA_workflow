@@ -1,4 +1,4 @@
-Source output: calculations/B12/bilayer_3d/d_4.0/mult_1/output.out
+Source output: calculations\B12\bilayer_3d\d_4.0\mult_1\output.out
 All frequencies parsed: 36
 Vibrational frequencies used for B12 check: 30
 Expected nonlinear B12 vibrational modes: 30

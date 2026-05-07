@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "compact_3d",
+  "structure_family": "3d",
   "description": "Compact non-planar B12 cage-like cluster.",
   "initial_distance_A": 4.0,
   "charge": 0,
@@ -13,5 +14,5 @@
   "run_type": "Opt Freq",
   "min_distance_A": 3.9999999999999996,
   "max_distance_A": 14.21739128237079,
-  "mean_distance_A": 10.26481847475439
+  "mean_distance_A": 10.264818474754392
 }

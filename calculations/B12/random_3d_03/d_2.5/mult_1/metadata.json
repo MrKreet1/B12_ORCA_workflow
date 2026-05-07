@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "random_3d_03",
+  "structure_family": "3d",
   "description": "Random 3D B12 cloud with controlled minimum distance 03.",
   "initial_distance_A": 2.5,
   "charge": 0,
@@ -13,5 +14,5 @@
   "run_type": "Opt Freq",
   "min_distance_A": 1.9887522158492097,
   "max_distance_A": 10.872913022447841,
-  "mean_distance_A": 5.705397999485353
+  "mean_distance_A": 5.70539799948535
 }

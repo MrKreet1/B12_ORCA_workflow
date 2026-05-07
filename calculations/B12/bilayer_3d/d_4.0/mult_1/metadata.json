@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "bilayer_3d",
+  "structure_family": "3d",
   "description": "Two staggered non-planar B6 layers.",
   "initial_distance_A": 4.0,
   "charge": 0,
@@ -13,5 +14,5 @@
   "run_type": "Opt Freq",
   "min_distance_A": 3.19968058627171,
   "max_distance_A": 8.0,
-  "mean_distance_A": 5.74535171441009
+  "mean_distance_A": 5.745351714410089
 }

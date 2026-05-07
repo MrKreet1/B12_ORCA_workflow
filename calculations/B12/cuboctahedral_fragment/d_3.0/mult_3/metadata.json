@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "cuboctahedral_fragment",
+  "structure_family": "3d",
   "description": "Cuboctahedron-like 12-vertex 3D structure.",
   "initial_distance_A": 3.0,
   "charge": 0,

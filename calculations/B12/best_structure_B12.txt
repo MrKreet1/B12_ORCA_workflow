@@ -8,7 +8,8 @@ Expected nonlinear B12 vibrational modes: 30
 Best preliminary B12 true minimum
 ---------------------------------
 Structure name: bilayer_3d
-Calculation path: calculations/B12/bilayer_3d/d_3.5/mult_1
+Structure family: 3d
+Calculation path: calculations\B12\bilayer_3d\d_3.5\mult_1
 Initial distance d: 3.5 A
 Charge: 0
 Multiplicity: 1
@@ -21,15 +22,15 @@ SCF converged: True
 Imaginary frequencies present: False
 Number of imaginary frequencies: 0
 Number of vibrational modes parsed: 30
-Optimized XYZ path: calculations/B12/bilayer_3d/d_3.5/mult_1/optimized.xyz
-Output path: calculations/B12/bilayer_3d/d_3.5/mult_1/output.out
+Optimized XYZ path: calculations\B12\bilayer_3d\d_3.5\mult_1\optimized.xyz
+Output path: calculations\B12\bilayer_3d\d_3.5\mult_1\output.out
 Disk used by calculation folder: 7.68 MB
 Final refinement input created at: calculations/B12/final_refinement/input.inp
 
 Optimized coordinates XYZ
 -------------------------
 12
-Optimized coordinates extracted from calculations/B12/bilayer_3d/d_3.5/mult_1/output.out
+Optimized coordinates extracted from calculations\B12\bilayer_3d\d_3.5\mult_1\output.out
 B        2.31480507       0.62774874       0.51499542
 B        1.09480610       1.68497898       0.27374238
 B       -0.36514929       2.41452216       0.24477873
@@ -80,8 +81,8 @@ mode, frequency_cm-1, IR_intensity_if_available, reduced_mass_if_available, forc
 Normal-mode displacement data
 -----------------------------
 Raw normal-mode data were extracted to normal_modes_raw.txt in the calculation folder.
-Path: calculations/B12/bilayer_3d/d_3.5/mult_1/normal_modes_raw.txt
+Path: calculations\B12\bilayer_3d\d_3.5\mult_1\normal_modes_raw.txt
 
 Conclusion
 ----------
-This structure is the best preliminary true minimum among the parsed PBE0-D3BJ/def2-SVP Opt Freq calculations. It must still be refined with the generated PBE0-D3BJ/def2-TZVP Opt Freq input before final reporting.
+This structure is the best preliminary true minimum among the parsed PBE0-D3BJ/def2-SVP Opt Freq calculations. It must still be refined with the generated PBE0-D3BJ/def2-TZVP Opt Freq input before final reporting. Do not make the final scientific conclusion until the planar and quasi-planar B12 controls have also been processed and compared at the same final-refinement level.

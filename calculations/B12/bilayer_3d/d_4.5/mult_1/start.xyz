@@ -1,5 +1,5 @@
 12
-B12 bilayer_3d; neutral charge=0; multiplicity=1; 3D initial geometry; nominal d=4.5 A; Two staggered non-planar B6 layers.
+B12 bilayer_3d; neutral charge=0; multiplicity=1; 3d initial geometry; nominal d=4.5 A; Two staggered non-planar B6 layers.
 B        4.50000000      -0.00000000       1.39500000
 B        2.25000000       3.89711432       1.39500000
 B       -2.25000000       3.89711432       1.39500000

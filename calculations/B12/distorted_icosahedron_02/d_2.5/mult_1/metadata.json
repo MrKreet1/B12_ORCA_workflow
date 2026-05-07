@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "distorted_icosahedron_02",
+  "structure_family": "3d",
   "description": "Low-symmetry distorted icosahedron variant 02.",
   "initial_distance_A": 2.5,
   "charge": 0,
@@ -11,7 +12,7 @@
   "nprocs": 8,
   "maxcore_MB_per_process": 2500,
   "run_type": "Opt Freq",
-  "min_distance_A": 2.3820084565930486,
+  "min_distance_A": 2.382008456593049,
   "max_distance_A": 4.944215654800989,
   "mean_distance_A": 3.4751388370841028
 }

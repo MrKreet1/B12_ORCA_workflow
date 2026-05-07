@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "random_3d_01",
+  "structure_family": "3d",
   "description": "Random 3D B12 cloud with controlled minimum distance 01.",
   "initial_distance_A": 2.5,
   "charge": 0,

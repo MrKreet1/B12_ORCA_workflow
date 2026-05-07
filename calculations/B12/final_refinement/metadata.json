@@ -1,7 +1,7 @@
 {
   "purpose": "final PBE0-D3BJ/def2-TZVP Opt Freq refinement",
-  "source_calculation": "calculations/B12/bilayer_3d/d_3.5/mult_1",
-  "source_optimized_xyz": "calculations/B12/bilayer_3d/d_3.5/mult_1/optimized.xyz",
+  "source_calculation": "calculations\\B12\\bilayer_3d\\d_3.5\\mult_1",
+  "source_optimized_xyz": "calculations\\B12\\bilayer_3d\\d_3.5\\mult_1\\optimized.xyz",
   "charge": 0,
   "multiplicity": 1,
   "preliminary_total_energy_Eh": -297.373546508462,

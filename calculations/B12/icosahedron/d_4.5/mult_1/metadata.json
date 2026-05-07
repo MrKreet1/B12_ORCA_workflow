@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "icosahedron",
+  "structure_family": "3d",
   "description": "Regular icosahedral B12 vertex shell.",
   "initial_distance_A": 4.5,
   "charge": 0,
@@ -13,5 +14,5 @@
   "run_type": "Opt Freq",
   "min_distance_A": 4.5,
   "max_distance_A": 8.559508646656383,
-  "mean_distance_A": 6.133206672139002
+  "mean_distance_A": 6.133206672139001
 }

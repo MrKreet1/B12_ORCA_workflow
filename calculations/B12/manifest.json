@@ -1,9 +1,10 @@
 {
   "calculations": [
     {
-      "path": "calculations/B12/icosahedron/d_5.0/mult_1",
+      "path": "calculations\\B12\\icosahedron\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -16,12 +17,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 5.0,
       "max_distance_A": 9.510565162951536,
-      "mean_distance_A": 6.814674080154446
+      "mean_distance_A": 6.814674080154445
     },
     {
-      "path": "calculations/B12/icosahedron/d_5.0/mult_3",
+      "path": "calculations\\B12\\icosahedron\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -34,12 +36,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 5.0,
       "max_distance_A": 9.510565162951536,
-      "mean_distance_A": 6.814674080154446
+      "mean_distance_A": 6.814674080154445
     },
     {
-      "path": "calculations/B12/icosahedron/d_5.0/mult_5",
+      "path": "calculations\\B12\\icosahedron\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -52,12 +55,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 5.0,
       "max_distance_A": 9.510565162951536,
-      "mean_distance_A": 6.814674080154446
+      "mean_distance_A": 6.814674080154445
     },
     {
-      "path": "calculations/B12/icosahedron/d_4.5/mult_1",
+      "path": "calculations\\B12\\icosahedron\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -70,12 +74,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.5,
       "max_distance_A": 8.559508646656383,
-      "mean_distance_A": 6.133206672139002
+      "mean_distance_A": 6.133206672139001
     },
     {
-      "path": "calculations/B12/icosahedron/d_4.5/mult_3",
+      "path": "calculations\\B12\\icosahedron\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -88,12 +93,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.5,
       "max_distance_A": 8.559508646656383,
-      "mean_distance_A": 6.133206672139002
+      "mean_distance_A": 6.133206672139001
     },
     {
-      "path": "calculations/B12/icosahedron/d_4.5/mult_5",
+      "path": "calculations\\B12\\icosahedron\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -106,12 +112,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.5,
       "max_distance_A": 8.559508646656383,
-      "mean_distance_A": 6.133206672139002
+      "mean_distance_A": 6.133206672139001
     },
     {
-      "path": "calculations/B12/icosahedron/d_4.0/mult_1",
+      "path": "calculations\\B12\\icosahedron\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -124,12 +131,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.0,
       "max_distance_A": 7.608452130361228,
-      "mean_distance_A": 5.451739264123558
+      "mean_distance_A": 5.4517392641235585
     },
     {
-      "path": "calculations/B12/icosahedron/d_4.0/mult_3",
+      "path": "calculations\\B12\\icosahedron\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -142,12 +150,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.0,
       "max_distance_A": 7.608452130361228,
-      "mean_distance_A": 5.451739264123558
+      "mean_distance_A": 5.4517392641235585
     },
     {
-      "path": "calculations/B12/icosahedron/d_4.0/mult_5",
+      "path": "calculations\\B12\\icosahedron\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -160,12 +169,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.0,
       "max_distance_A": 7.608452130361228,
-      "mean_distance_A": 5.451739264123558
+      "mean_distance_A": 5.4517392641235585
     },
     {
-      "path": "calculations/B12/icosahedron/d_3.5/mult_1",
+      "path": "calculations\\B12\\icosahedron\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -178,12 +188,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.5,
       "max_distance_A": 6.6573956140660755,
-      "mean_distance_A": 4.7702718561081126
+      "mean_distance_A": 4.770271856108114
     },
     {
-      "path": "calculations/B12/icosahedron/d_3.5/mult_3",
+      "path": "calculations\\B12\\icosahedron\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -196,12 +207,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.5,
       "max_distance_A": 6.6573956140660755,
-      "mean_distance_A": 4.7702718561081126
+      "mean_distance_A": 4.770271856108114
     },
     {
-      "path": "calculations/B12/icosahedron/d_3.5/mult_5",
+      "path": "calculations\\B12\\icosahedron\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -214,12 +226,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.5,
       "max_distance_A": 6.6573956140660755,
-      "mean_distance_A": 4.7702718561081126
+      "mean_distance_A": 4.770271856108114
     },
     {
-      "path": "calculations/B12/icosahedron/d_3.0/mult_1",
+      "path": "calculations\\B12\\icosahedron\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -232,12 +245,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.0,
       "max_distance_A": 5.706339097770922,
-      "mean_distance_A": 4.0888044480926675
+      "mean_distance_A": 4.088804448092668
     },
     {
-      "path": "calculations/B12/icosahedron/d_3.0/mult_3",
+      "path": "calculations\\B12\\icosahedron\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -250,12 +264,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.0,
       "max_distance_A": 5.706339097770922,
-      "mean_distance_A": 4.0888044480926675
+      "mean_distance_A": 4.088804448092668
     },
     {
-      "path": "calculations/B12/icosahedron/d_3.0/mult_5",
+      "path": "calculations\\B12\\icosahedron\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -268,12 +283,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.0,
       "max_distance_A": 5.706339097770922,
-      "mean_distance_A": 4.0888044480926675
+      "mean_distance_A": 4.088804448092668
     },
     {
-      "path": "calculations/B12/icosahedron/d_2.5/mult_1",
+      "path": "calculations\\B12\\icosahedron\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -286,12 +302,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.5,
       "max_distance_A": 4.755282581475768,
-      "mean_distance_A": 3.407337040077223
+      "mean_distance_A": 3.4073370400772225
     },
     {
-      "path": "calculations/B12/icosahedron/d_2.5/mult_3",
+      "path": "calculations\\B12\\icosahedron\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -304,12 +321,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.5,
       "max_distance_A": 4.755282581475768,
-      "mean_distance_A": 3.407337040077223
+      "mean_distance_A": 3.4073370400772225
     },
     {
-      "path": "calculations/B12/icosahedron/d_2.5/mult_5",
+      "path": "calculations\\B12\\icosahedron\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -322,12 +340,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.5,
       "max_distance_A": 4.755282581475768,
-      "mean_distance_A": 3.407337040077223
+      "mean_distance_A": 3.4073370400772225
     },
     {
-      "path": "calculations/B12/icosahedron/d_2.0/mult_1",
+      "path": "calculations\\B12\\icosahedron\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -340,12 +359,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.0,
       "max_distance_A": 3.804226065180614,
-      "mean_distance_A": 2.725869632061779
+      "mean_distance_A": 2.7258696320617792
     },
     {
-      "path": "calculations/B12/icosahedron/d_2.0/mult_3",
+      "path": "calculations\\B12\\icosahedron\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -358,12 +378,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.0,
       "max_distance_A": 3.804226065180614,
-      "mean_distance_A": 2.725869632061779
+      "mean_distance_A": 2.7258696320617792
     },
     {
-      "path": "calculations/B12/icosahedron/d_2.0/mult_5",
+      "path": "calculations\\B12\\icosahedron\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "icosahedron",
+      "structure_family": "3d",
       "description": "Regular icosahedral B12 vertex shell.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -376,12 +397,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.0,
       "max_distance_A": 3.804226065180614,
-      "mean_distance_A": 2.725869632061779
+      "mean_distance_A": 2.7258696320617792
     },
     {
-      "path": "calculations/B12/compact_3d/d_5.0/mult_1",
+      "path": "calculations\\B12\\compact_3d\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -397,9 +419,10 @@
       "mean_distance_A": 12.83102309344299
     },
     {
-      "path": "calculations/B12/compact_3d/d_5.0/mult_3",
+      "path": "calculations\\B12\\compact_3d\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -415,9 +438,10 @@
       "mean_distance_A": 12.83102309344299
     },
     {
-      "path": "calculations/B12/compact_3d/d_5.0/mult_5",
+      "path": "calculations\\B12\\compact_3d\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -433,9 +457,10 @@
       "mean_distance_A": 12.83102309344299
     },
     {
-      "path": "calculations/B12/compact_3d/d_4.5/mult_1",
+      "path": "calculations\\B12\\compact_3d\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -448,12 +473,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.499999999999999,
       "max_distance_A": 15.994565192667142,
-      "mean_distance_A": 11.547920784098691
+      "mean_distance_A": 11.547920784098693
     },
     {
-      "path": "calculations/B12/compact_3d/d_4.5/mult_3",
+      "path": "calculations\\B12\\compact_3d\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -466,12 +492,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.499999999999999,
       "max_distance_A": 15.994565192667142,
-      "mean_distance_A": 11.547920784098691
+      "mean_distance_A": 11.547920784098693
     },
     {
-      "path": "calculations/B12/compact_3d/d_4.5/mult_5",
+      "path": "calculations\\B12\\compact_3d\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -484,12 +511,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.499999999999999,
       "max_distance_A": 15.994565192667142,
-      "mean_distance_A": 11.547920784098691
+      "mean_distance_A": 11.547920784098693
     },
     {
-      "path": "calculations/B12/compact_3d/d_4.0/mult_1",
+      "path": "calculations\\B12\\compact_3d\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -502,12 +530,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9999999999999996,
       "max_distance_A": 14.21739128237079,
-      "mean_distance_A": 10.26481847475439
+      "mean_distance_A": 10.264818474754392
     },
     {
-      "path": "calculations/B12/compact_3d/d_4.0/mult_3",
+      "path": "calculations\\B12\\compact_3d\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -520,12 +549,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9999999999999996,
       "max_distance_A": 14.21739128237079,
-      "mean_distance_A": 10.26481847475439
+      "mean_distance_A": 10.264818474754392
     },
     {
-      "path": "calculations/B12/compact_3d/d_4.0/mult_5",
+      "path": "calculations\\B12\\compact_3d\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -538,12 +568,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9999999999999996,
       "max_distance_A": 14.21739128237079,
-      "mean_distance_A": 10.26481847475439
+      "mean_distance_A": 10.264818474754392
     },
     {
-      "path": "calculations/B12/compact_3d/d_3.5/mult_1",
+      "path": "calculations\\B12\\compact_3d\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -554,14 +585,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 3.5000000000000004,
+      "min_distance_A": 3.4999999999999996,
       "max_distance_A": 12.440217372074445,
-      "mean_distance_A": 8.981716165410093
+      "mean_distance_A": 8.981716165410099
     },
     {
-      "path": "calculations/B12/compact_3d/d_3.5/mult_3",
+      "path": "calculations\\B12\\compact_3d\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -572,14 +604,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 3.5000000000000004,
+      "min_distance_A": 3.4999999999999996,
       "max_distance_A": 12.440217372074445,
-      "mean_distance_A": 8.981716165410093
+      "mean_distance_A": 8.981716165410099
     },
     {
-      "path": "calculations/B12/compact_3d/d_3.5/mult_5",
+      "path": "calculations\\B12\\compact_3d\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -590,14 +623,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 3.5000000000000004,
+      "min_distance_A": 3.4999999999999996,
       "max_distance_A": 12.440217372074445,
-      "mean_distance_A": 8.981716165410093
+      "mean_distance_A": 8.981716165410099
     },
     {
-      "path": "calculations/B12/compact_3d/d_3.0/mult_1",
+      "path": "calculations\\B12\\compact_3d\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -610,12 +644,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9999999999999996,
       "max_distance_A": 10.663043461778095,
-      "mean_distance_A": 7.698613856065793
+      "mean_distance_A": 7.698613856065794
     },
     {
-      "path": "calculations/B12/compact_3d/d_3.0/mult_3",
+      "path": "calculations\\B12\\compact_3d\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -628,12 +663,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9999999999999996,
       "max_distance_A": 10.663043461778095,
-      "mean_distance_A": 7.698613856065793
+      "mean_distance_A": 7.698613856065794
     },
     {
-      "path": "calculations/B12/compact_3d/d_3.0/mult_5",
+      "path": "calculations\\B12\\compact_3d\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -646,12 +682,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9999999999999996,
       "max_distance_A": 10.663043461778095,
-      "mean_distance_A": 7.698613856065793
+      "mean_distance_A": 7.698613856065794
     },
     {
-      "path": "calculations/B12/compact_3d/d_2.5/mult_1",
+      "path": "calculations\\B12\\compact_3d\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -667,9 +704,10 @@
       "mean_distance_A": 6.415511546721495
     },
     {
-      "path": "calculations/B12/compact_3d/d_2.5/mult_3",
+      "path": "calculations\\B12\\compact_3d\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -685,9 +723,10 @@
       "mean_distance_A": 6.415511546721495
     },
     {
-      "path": "calculations/B12/compact_3d/d_2.5/mult_5",
+      "path": "calculations\\B12\\compact_3d\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -703,9 +742,10 @@
       "mean_distance_A": 6.415511546721495
     },
     {
-      "path": "calculations/B12/compact_3d/d_2.0/mult_1",
+      "path": "calculations\\B12\\compact_3d\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -718,12 +758,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9999999999999998,
       "max_distance_A": 7.108695641185395,
-      "mean_distance_A": 5.132409237377195
+      "mean_distance_A": 5.132409237377196
     },
     {
-      "path": "calculations/B12/compact_3d/d_2.0/mult_3",
+      "path": "calculations\\B12\\compact_3d\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -736,12 +777,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9999999999999998,
       "max_distance_A": 7.108695641185395,
-      "mean_distance_A": 5.132409237377195
+      "mean_distance_A": 5.132409237377196
     },
     {
-      "path": "calculations/B12/compact_3d/d_2.0/mult_5",
+      "path": "calculations\\B12\\compact_3d\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "compact_3d",
+      "structure_family": "3d",
       "description": "Compact non-planar B12 cage-like cluster.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -754,12 +796,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9999999999999998,
       "max_distance_A": 7.108695641185395,
-      "mean_distance_A": 5.132409237377195
+      "mean_distance_A": 5.132409237377196
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_5.0/mult_1",
+      "path": "calculations\\B12\\bilayer_3d\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -772,12 +815,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9996007328396375,
       "max_distance_A": 10.0,
-      "mean_distance_A": 7.181689643012612
+      "mean_distance_A": 7.181689643012609
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_5.0/mult_3",
+      "path": "calculations\\B12\\bilayer_3d\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -790,12 +834,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9996007328396375,
       "max_distance_A": 10.0,
-      "mean_distance_A": 7.181689643012612
+      "mean_distance_A": 7.181689643012609
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_5.0/mult_5",
+      "path": "calculations\\B12\\bilayer_3d\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -808,12 +853,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9996007328396375,
       "max_distance_A": 10.0,
-      "mean_distance_A": 7.181689643012612
+      "mean_distance_A": 7.181689643012609
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_4.5/mult_1",
+      "path": "calculations\\B12\\bilayer_3d\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -829,9 +875,10 @@
       "mean_distance_A": 6.463520678711351
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_4.5/mult_3",
+      "path": "calculations\\B12\\bilayer_3d\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -847,9 +894,10 @@
       "mean_distance_A": 6.463520678711351
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_4.5/mult_5",
+      "path": "calculations\\B12\\bilayer_3d\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -865,9 +913,10 @@
       "mean_distance_A": 6.463520678711351
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_4.0/mult_1",
+      "path": "calculations\\B12\\bilayer_3d\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -880,12 +929,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.19968058627171,
       "max_distance_A": 8.0,
-      "mean_distance_A": 5.74535171441009
+      "mean_distance_A": 5.745351714410089
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_4.0/mult_3",
+      "path": "calculations\\B12\\bilayer_3d\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -898,12 +948,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.19968058627171,
       "max_distance_A": 8.0,
-      "mean_distance_A": 5.74535171441009
+      "mean_distance_A": 5.745351714410089
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_4.0/mult_5",
+      "path": "calculations\\B12\\bilayer_3d\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -916,12 +967,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.19968058627171,
       "max_distance_A": 8.0,
-      "mean_distance_A": 5.74535171441009
+      "mean_distance_A": 5.745351714410089
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_3.5/mult_1",
+      "path": "calculations\\B12\\bilayer_3d\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -934,12 +986,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.7997205129877463,
       "max_distance_A": 7.0,
-      "mean_distance_A": 5.027182750108828
+      "mean_distance_A": 5.02718275010883
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_3.5/mult_3",
+      "path": "calculations\\B12\\bilayer_3d\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -952,12 +1005,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.7997205129877463,
       "max_distance_A": 7.0,
-      "mean_distance_A": 5.027182750108828
+      "mean_distance_A": 5.02718275010883
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_3.5/mult_5",
+      "path": "calculations\\B12\\bilayer_3d\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -970,12 +1024,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.7997205129877463,
       "max_distance_A": 7.0,
-      "mean_distance_A": 5.027182750108828
+      "mean_distance_A": 5.02718275010883
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_3.0/mult_1",
+      "path": "calculations\\B12\\bilayer_3d\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -987,13 +1042,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 2.3997604397037824,
-      "max_distance_A": 6.0,
-      "mean_distance_A": 4.309013785807568
+      "max_distance_A": 6.000000000000001,
+      "mean_distance_A": 4.309013785807565
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_3.0/mult_3",
+      "path": "calculations\\B12\\bilayer_3d\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -1005,13 +1061,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 2.3997604397037824,
-      "max_distance_A": 6.0,
-      "mean_distance_A": 4.309013785807568
+      "max_distance_A": 6.000000000000001,
+      "mean_distance_A": 4.309013785807565
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_3.0/mult_5",
+      "path": "calculations\\B12\\bilayer_3d\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -1023,13 +1080,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 2.3997604397037824,
-      "max_distance_A": 6.0,
-      "mean_distance_A": 4.309013785807568
+      "max_distance_A": 6.000000000000001,
+      "mean_distance_A": 4.309013785807565
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_2.5/mult_1",
+      "path": "calculations\\B12\\bilayer_3d\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1042,12 +1100,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9998003664198187,
       "max_distance_A": 5.0,
-      "mean_distance_A": 3.590844821506306
+      "mean_distance_A": 3.5908448215063045
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_2.5/mult_3",
+      "path": "calculations\\B12\\bilayer_3d\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1060,12 +1119,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9998003664198187,
       "max_distance_A": 5.0,
-      "mean_distance_A": 3.590844821506306
+      "mean_distance_A": 3.5908448215063045
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_2.5/mult_5",
+      "path": "calculations\\B12\\bilayer_3d\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1078,12 +1138,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9998003664198187,
       "max_distance_A": 5.0,
-      "mean_distance_A": 3.590844821506306
+      "mean_distance_A": 3.5908448215063045
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_2.0/mult_1",
+      "path": "calculations\\B12\\bilayer_3d\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1096,12 +1157,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.599840293135855,
       "max_distance_A": 4.0,
-      "mean_distance_A": 2.872675857205045
+      "mean_distance_A": 2.8726758572050444
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_2.0/mult_3",
+      "path": "calculations\\B12\\bilayer_3d\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1114,12 +1176,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.599840293135855,
       "max_distance_A": 4.0,
-      "mean_distance_A": 2.872675857205045
+      "mean_distance_A": 2.8726758572050444
     },
     {
-      "path": "calculations/B12/bilayer_3d/d_2.0/mult_5",
+      "path": "calculations\\B12\\bilayer_3d\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "bilayer_3d",
+      "structure_family": "3d",
       "description": "Two staggered non-planar B6 layers.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1132,12 +1195,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.599840293135855,
       "max_distance_A": 4.0,
-      "mean_distance_A": 2.872675857205045
+      "mean_distance_A": 2.8726758572050444
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_5.0/mult_1",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1150,12 +1214,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 5.0,
       "max_distance_A": 10.0,
-      "mean_distance_A": 7.162104706828044
+      "mean_distance_A": 7.1621047068280435
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_5.0/mult_3",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1168,12 +1233,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 5.0,
       "max_distance_A": 10.0,
-      "mean_distance_A": 7.162104706828044
+      "mean_distance_A": 7.1621047068280435
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_5.0/mult_5",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1186,12 +1252,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 5.0,
       "max_distance_A": 10.0,
-      "mean_distance_A": 7.162104706828044
+      "mean_distance_A": 7.1621047068280435
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_4.5/mult_1",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1204,12 +1271,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.5,
       "max_distance_A": 9.0,
-      "mean_distance_A": 6.44589423614524
+      "mean_distance_A": 6.445894236145239
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_4.5/mult_3",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1222,12 +1290,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.5,
       "max_distance_A": 9.0,
-      "mean_distance_A": 6.44589423614524
+      "mean_distance_A": 6.445894236145239
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_4.5/mult_5",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1240,12 +1309,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.5,
       "max_distance_A": 9.0,
-      "mean_distance_A": 6.44589423614524
+      "mean_distance_A": 6.445894236145239
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_4.0/mult_1",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -1258,12 +1328,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9999999999999996,
       "max_distance_A": 7.999999999999999,
-      "mean_distance_A": 5.729683765462436
+      "mean_distance_A": 5.729683765462435
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_4.0/mult_3",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -1276,12 +1347,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9999999999999996,
       "max_distance_A": 7.999999999999999,
-      "mean_distance_A": 5.729683765462436
+      "mean_distance_A": 5.729683765462435
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_4.0/mult_5",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -1294,12 +1366,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9999999999999996,
       "max_distance_A": 7.999999999999999,
-      "mean_distance_A": 5.729683765462436
+      "mean_distance_A": 5.729683765462435
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_3.5/mult_1",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -1315,9 +1388,10 @@
       "mean_distance_A": 5.013473294779631
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_3.5/mult_3",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -1333,9 +1407,10 @@
       "mean_distance_A": 5.013473294779631
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_3.5/mult_5",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -1351,9 +1426,10 @@
       "mean_distance_A": 5.013473294779631
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_3.0/mult_1",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -1369,9 +1445,10 @@
       "mean_distance_A": 4.297262824096826
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_3.0/mult_3",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -1387,9 +1464,10 @@
       "mean_distance_A": 4.297262824096826
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_3.0/mult_5",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -1405,9 +1483,10 @@
       "mean_distance_A": 4.297262824096826
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_2.5/mult_1",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1420,12 +1499,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.5,
       "max_distance_A": 5.0,
-      "mean_distance_A": 3.581052353414022
+      "mean_distance_A": 3.5810523534140217
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_2.5/mult_3",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1438,12 +1518,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.5,
       "max_distance_A": 5.0,
-      "mean_distance_A": 3.581052353414022
+      "mean_distance_A": 3.5810523534140217
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_2.5/mult_5",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1456,12 +1537,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.5,
       "max_distance_A": 5.0,
-      "mean_distance_A": 3.581052353414022
+      "mean_distance_A": 3.5810523534140217
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_2.0/mult_1",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1474,12 +1556,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9999999999999998,
       "max_distance_A": 3.9999999999999996,
-      "mean_distance_A": 2.864841882731218
+      "mean_distance_A": 2.8648418827312176
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_2.0/mult_3",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1492,12 +1575,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9999999999999998,
       "max_distance_A": 3.9999999999999996,
-      "mean_distance_A": 2.864841882731218
+      "mean_distance_A": 2.8648418827312176
     },
     {
-      "path": "calculations/B12/cuboctahedral_fragment/d_2.0/mult_5",
+      "path": "calculations\\B12\\cuboctahedral_fragment\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "cuboctahedral_fragment",
+      "structure_family": "3d",
       "description": "Cuboctahedron-like 12-vertex 3D structure.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1510,12 +1594,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9999999999999998,
       "max_distance_A": 3.9999999999999996,
-      "mean_distance_A": 2.864841882731218
+      "mean_distance_A": 2.8648418827312176
     },
     {
-      "path": "calculations/B12/distorted_cage/d_5.0/mult_1",
+      "path": "calculations\\B12\\distorted_cage\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1531,9 +1616,10 @@
       "mean_distance_A": 7.203899051097512
     },
     {
-      "path": "calculations/B12/distorted_cage/d_5.0/mult_3",
+      "path": "calculations\\B12\\distorted_cage\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1549,9 +1635,10 @@
       "mean_distance_A": 7.203899051097512
     },
     {
-      "path": "calculations/B12/distorted_cage/d_5.0/mult_5",
+      "path": "calculations\\B12\\distorted_cage\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1567,9 +1654,10 @@
       "mean_distance_A": 7.203899051097512
     },
     {
-      "path": "calculations/B12/distorted_cage/d_4.5/mult_1",
+      "path": "calculations\\B12\\distorted_cage\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1585,9 +1673,10 @@
       "mean_distance_A": 6.48350914598776
     },
     {
-      "path": "calculations/B12/distorted_cage/d_4.5/mult_3",
+      "path": "calculations\\B12\\distorted_cage\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1603,9 +1692,10 @@
       "mean_distance_A": 6.48350914598776
     },
     {
-      "path": "calculations/B12/distorted_cage/d_4.5/mult_5",
+      "path": "calculations\\B12\\distorted_cage\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1621,9 +1711,10 @@
       "mean_distance_A": 6.48350914598776
     },
     {
-      "path": "calculations/B12/distorted_cage/d_4.0/mult_1",
+      "path": "calculations\\B12\\distorted_cage\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -1639,9 +1730,10 @@
       "mean_distance_A": 5.76311924087801
     },
     {
-      "path": "calculations/B12/distorted_cage/d_4.0/mult_3",
+      "path": "calculations\\B12\\distorted_cage\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -1657,9 +1749,10 @@
       "mean_distance_A": 5.76311924087801
     },
     {
-      "path": "calculations/B12/distorted_cage/d_4.0/mult_5",
+      "path": "calculations\\B12\\distorted_cage\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -1675,9 +1768,10 @@
       "mean_distance_A": 5.76311924087801
     },
     {
-      "path": "calculations/B12/distorted_cage/d_3.5/mult_1",
+      "path": "calculations\\B12\\distorted_cage\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -1690,12 +1784,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.0949608466426426,
       "max_distance_A": 7.4896667544218705,
-      "mean_distance_A": 5.042729335768258
+      "mean_distance_A": 5.042729335768259
     },
     {
-      "path": "calculations/B12/distorted_cage/d_3.5/mult_3",
+      "path": "calculations\\B12\\distorted_cage\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -1708,12 +1803,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.0949608466426426,
       "max_distance_A": 7.4896667544218705,
-      "mean_distance_A": 5.042729335768258
+      "mean_distance_A": 5.042729335768259
     },
     {
-      "path": "calculations/B12/distorted_cage/d_3.5/mult_5",
+      "path": "calculations\\B12\\distorted_cage\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -1726,12 +1822,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.0949608466426426,
       "max_distance_A": 7.4896667544218705,
-      "mean_distance_A": 5.042729335768258
+      "mean_distance_A": 5.042729335768259
     },
     {
-      "path": "calculations/B12/distorted_cage/d_3.0/mult_1",
+      "path": "calculations\\B12\\distorted_cage\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -1747,9 +1844,10 @@
       "mean_distance_A": 4.3223394306585075
     },
     {
-      "path": "calculations/B12/distorted_cage/d_3.0/mult_3",
+      "path": "calculations\\B12\\distorted_cage\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -1765,9 +1863,10 @@
       "mean_distance_A": 4.3223394306585075
     },
     {
-      "path": "calculations/B12/distorted_cage/d_3.0/mult_5",
+      "path": "calculations\\B12\\distorted_cage\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -1783,9 +1882,10 @@
       "mean_distance_A": 4.3223394306585075
     },
     {
-      "path": "calculations/B12/distorted_cage/d_2.5/mult_1",
+      "path": "calculations\\B12\\distorted_cage\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1801,9 +1901,10 @@
       "mean_distance_A": 3.601949525548756
     },
     {
-      "path": "calculations/B12/distorted_cage/d_2.5/mult_3",
+      "path": "calculations\\B12\\distorted_cage\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1819,9 +1920,10 @@
       "mean_distance_A": 3.601949525548756
     },
     {
-      "path": "calculations/B12/distorted_cage/d_2.5/mult_5",
+      "path": "calculations\\B12\\distorted_cage\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -1837,9 +1939,10 @@
       "mean_distance_A": 3.601949525548756
     },
     {
-      "path": "calculations/B12/distorted_cage/d_2.0/mult_1",
+      "path": "calculations\\B12\\distorted_cage\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1855,9 +1958,10 @@
       "mean_distance_A": 2.881559620439005
     },
     {
-      "path": "calculations/B12/distorted_cage/d_2.0/mult_3",
+      "path": "calculations\\B12\\distorted_cage\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1873,9 +1977,10 @@
       "mean_distance_A": 2.881559620439005
     },
     {
-      "path": "calculations/B12/distorted_cage/d_2.0/mult_5",
+      "path": "calculations\\B12\\distorted_cage\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_cage",
+      "structure_family": "3d",
       "description": "Anisotropically deformed 3D cage.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -1891,9 +1996,10 @@
       "mean_distance_A": 2.881559620439005
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_5.0/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1906,12 +2012,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.715470296149926,
       "max_distance_A": 9.59481403673364,
-      "mean_distance_A": 6.719823871881406
+      "mean_distance_A": 6.71982387188141
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_5.0/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1924,12 +2031,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.715470296149926,
       "max_distance_A": 9.59481403673364,
-      "mean_distance_A": 6.719823871881406
+      "mean_distance_A": 6.71982387188141
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_5.0/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -1942,12 +2050,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.715470296149926,
       "max_distance_A": 9.59481403673364,
-      "mean_distance_A": 6.719823871881406
+      "mean_distance_A": 6.71982387188141
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_4.5/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1960,12 +2069,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.2439232665349325,
       "max_distance_A": 8.635332633060276,
-      "mean_distance_A": 6.047841484693265
+      "mean_distance_A": 6.047841484693266
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_4.5/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1978,12 +2088,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.2439232665349325,
       "max_distance_A": 8.635332633060276,
-      "mean_distance_A": 6.047841484693265
+      "mean_distance_A": 6.047841484693266
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_4.5/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -1996,12 +2107,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.2439232665349325,
       "max_distance_A": 8.635332633060276,
-      "mean_distance_A": 6.047841484693265
+      "mean_distance_A": 6.047841484693266
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_4.0/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2017,9 +2129,10 @@
       "mean_distance_A": 5.375859097505125
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_4.0/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2035,9 +2148,10 @@
       "mean_distance_A": 5.375859097505125
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_4.0/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2053,9 +2167,10 @@
       "mean_distance_A": 5.375859097505125
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_3.5/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2068,12 +2183,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.3008292073049477,
       "max_distance_A": 6.716369825713547,
-      "mean_distance_A": 4.703876710316984
+      "mean_distance_A": 4.703876710316985
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_3.5/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2086,12 +2202,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.3008292073049477,
       "max_distance_A": 6.716369825713547,
-      "mean_distance_A": 4.703876710316984
+      "mean_distance_A": 4.703876710316985
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_3.5/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2104,12 +2221,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.3008292073049477,
       "max_distance_A": 6.716369825713547,
-      "mean_distance_A": 4.703876710316984
+      "mean_distance_A": 4.703876710316985
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_3.0/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2120,14 +2238,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 2.8292821776899553,
+      "min_distance_A": 2.8292821776899557,
       "max_distance_A": 5.756888422040184,
       "mean_distance_A": 4.031894323128843
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_3.0/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2138,14 +2257,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 2.8292821776899553,
+      "min_distance_A": 2.8292821776899557,
       "max_distance_A": 5.756888422040184,
       "mean_distance_A": 4.031894323128843
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_3.0/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2156,14 +2276,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 2.8292821776899553,
+      "min_distance_A": 2.8292821776899557,
       "max_distance_A": 5.756888422040184,
       "mean_distance_A": 4.031894323128843
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_2.5/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2176,12 +2297,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.357735148074963,
       "max_distance_A": 4.79740701836682,
-      "mean_distance_A": 3.359911935940703
+      "mean_distance_A": 3.359911935940705
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_2.5/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2194,12 +2316,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.357735148074963,
       "max_distance_A": 4.79740701836682,
-      "mean_distance_A": 3.359911935940703
+      "mean_distance_A": 3.359911935940705
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_2.5/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2212,12 +2335,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.357735148074963,
       "max_distance_A": 4.79740701836682,
-      "mean_distance_A": 3.359911935940703
+      "mean_distance_A": 3.359911935940705
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_2.0/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -2233,9 +2357,10 @@
       "mean_distance_A": 2.6879295487525625
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_2.0/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -2251,9 +2376,10 @@
       "mean_distance_A": 2.6879295487525625
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_01/d_2.0/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_01\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_01",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 01.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -2269,9 +2395,10 @@
       "mean_distance_A": 2.6879295487525625
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_5.0/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -2282,14 +2409,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 4.764016913186097,
+      "min_distance_A": 4.764016913186098,
       "max_distance_A": 9.888431309601978,
       "mean_distance_A": 6.9502776741682055
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_5.0/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -2300,14 +2428,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 4.764016913186097,
+      "min_distance_A": 4.764016913186098,
       "max_distance_A": 9.888431309601978,
       "mean_distance_A": 6.9502776741682055
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_5.0/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -2318,14 +2447,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 4.764016913186097,
+      "min_distance_A": 4.764016913186098,
       "max_distance_A": 9.888431309601978,
       "mean_distance_A": 6.9502776741682055
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_4.5/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -2341,9 +2471,10 @@
       "mean_distance_A": 6.255249906751385
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_4.5/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -2359,9 +2490,10 @@
       "mean_distance_A": 6.255249906751385
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_4.5/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -2377,9 +2509,10 @@
       "mean_distance_A": 6.255249906751385
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_4.0/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2392,12 +2525,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.811213530548878,
       "max_distance_A": 7.910745047681583,
-      "mean_distance_A": 5.560222139334564
+      "mean_distance_A": 5.560222139334565
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_4.0/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2410,12 +2544,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.811213530548878,
       "max_distance_A": 7.910745047681583,
-      "mean_distance_A": 5.560222139334564
+      "mean_distance_A": 5.560222139334565
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_4.0/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2428,12 +2563,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.811213530548878,
       "max_distance_A": 7.910745047681583,
-      "mean_distance_A": 5.560222139334564
+      "mean_distance_A": 5.560222139334565
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_3.5/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2449,9 +2585,10 @@
       "mean_distance_A": 4.8651943719177435
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_3.5/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2467,9 +2604,10 @@
       "mean_distance_A": 4.8651943719177435
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_3.5/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2485,9 +2623,10 @@
       "mean_distance_A": 4.8651943719177435
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_3.0/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2500,12 +2639,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.858410147911659,
       "max_distance_A": 5.933058785761188,
-      "mean_distance_A": 4.170166604500923
+      "mean_distance_A": 4.170166604500922
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_3.0/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2518,12 +2658,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.858410147911659,
       "max_distance_A": 5.933058785761188,
-      "mean_distance_A": 4.170166604500923
+      "mean_distance_A": 4.170166604500922
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_3.0/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2536,12 +2677,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.858410147911659,
       "max_distance_A": 5.933058785761188,
-      "mean_distance_A": 4.170166604500923
+      "mean_distance_A": 4.170166604500922
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_2.5/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2552,14 +2694,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 2.3820084565930486,
+      "min_distance_A": 2.382008456593049,
       "max_distance_A": 4.944215654800989,
       "mean_distance_A": 3.4751388370841028
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_2.5/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2570,14 +2713,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 2.3820084565930486,
+      "min_distance_A": 2.382008456593049,
       "max_distance_A": 4.944215654800989,
       "mean_distance_A": 3.4751388370841028
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_2.5/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2588,14 +2732,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 2.3820084565930486,
+      "min_distance_A": 2.382008456593049,
       "max_distance_A": 4.944215654800989,
       "mean_distance_A": 3.4751388370841028
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_2.0/mult_1",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -2608,12 +2753,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.905606765274439,
       "max_distance_A": 3.9553725238407913,
-      "mean_distance_A": 2.780111069667282
+      "mean_distance_A": 2.7801110696672824
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_2.0/mult_3",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -2626,12 +2772,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.905606765274439,
       "max_distance_A": 3.9553725238407913,
-      "mean_distance_A": 2.780111069667282
+      "mean_distance_A": 2.7801110696672824
     },
     {
-      "path": "calculations/B12/distorted_icosahedron_02/d_2.0/mult_5",
+      "path": "calculations\\B12\\distorted_icosahedron_02\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "distorted_icosahedron_02",
+      "structure_family": "3d",
       "description": "Low-symmetry distorted icosahedron variant 02.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -2644,12 +2791,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.905606765274439,
       "max_distance_A": 3.9553725238407913,
-      "mean_distance_A": 2.780111069667282
+      "mean_distance_A": 2.7801110696672824
     },
     {
-      "path": "calculations/B12/random_3d_01/d_5.0/mult_1",
+      "path": "calculations\\B12\\random_3d_01\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -2662,12 +2810,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9181651039594363,
       "max_distance_A": 20.503309890224546,
-      "mean_distance_A": 11.908332550255597
+      "mean_distance_A": 11.908332550255595
     },
     {
-      "path": "calculations/B12/random_3d_01/d_5.0/mult_3",
+      "path": "calculations\\B12\\random_3d_01\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -2680,12 +2829,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9181651039594363,
       "max_distance_A": 20.503309890224546,
-      "mean_distance_A": 11.908332550255597
+      "mean_distance_A": 11.908332550255595
     },
     {
-      "path": "calculations/B12/random_3d_01/d_5.0/mult_5",
+      "path": "calculations\\B12\\random_3d_01\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -2698,12 +2848,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.9181651039594363,
       "max_distance_A": 20.503309890224546,
-      "mean_distance_A": 11.908332550255597
+      "mean_distance_A": 11.908332550255595
     },
     {
-      "path": "calculations/B12/random_3d_01/d_4.5/mult_1",
+      "path": "calculations\\B12\\random_3d_01\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -2716,12 +2867,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.3168784919356953,
       "max_distance_A": 18.12554260145248,
-      "mean_distance_A": 10.350920792262833
+      "mean_distance_A": 10.350920792262835
     },
     {
-      "path": "calculations/B12/random_3d_01/d_4.5/mult_3",
+      "path": "calculations\\B12\\random_3d_01\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -2734,12 +2886,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.3168784919356953,
       "max_distance_A": 18.12554260145248,
-      "mean_distance_A": 10.350920792262833
+      "mean_distance_A": 10.350920792262835
     },
     {
-      "path": "calculations/B12/random_3d_01/d_4.5/mult_5",
+      "path": "calculations\\B12\\random_3d_01\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -2752,12 +2905,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.3168784919356953,
       "max_distance_A": 18.12554260145248,
-      "mean_distance_A": 10.350920792262833
+      "mean_distance_A": 10.350920792262835
     },
     {
-      "path": "calculations/B12/random_3d_01/d_4.0/mult_1",
+      "path": "calculations\\B12\\random_3d_01\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2770,12 +2924,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9670071691265214,
       "max_distance_A": 13.712327258937782,
-      "mean_distance_A": 8.484743281139822
+      "mean_distance_A": 8.484743281139824
     },
     {
-      "path": "calculations/B12/random_3d_01/d_4.0/mult_3",
+      "path": "calculations\\B12\\random_3d_01\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2788,12 +2943,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9670071691265214,
       "max_distance_A": 13.712327258937782,
-      "mean_distance_A": 8.484743281139822
+      "mean_distance_A": 8.484743281139824
     },
     {
-      "path": "calculations/B12/random_3d_01/d_4.0/mult_5",
+      "path": "calculations\\B12\\random_3d_01\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -2806,12 +2962,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9670071691265214,
       "max_distance_A": 13.712327258937782,
-      "mean_distance_A": 8.484743281139822
+      "mean_distance_A": 8.484743281139824
     },
     {
-      "path": "calculations/B12/random_3d_01/d_3.5/mult_1",
+      "path": "calculations\\B12\\random_3d_01\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2824,12 +2981,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9758549641931773,
       "max_distance_A": 15.29592919882191,
-      "mean_distance_A": 8.044237300184076
+      "mean_distance_A": 8.044237300184077
     },
     {
-      "path": "calculations/B12/random_3d_01/d_3.5/mult_3",
+      "path": "calculations\\B12\\random_3d_01\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2842,12 +3000,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9758549641931773,
       "max_distance_A": 15.29592919882191,
-      "mean_distance_A": 8.044237300184076
+      "mean_distance_A": 8.044237300184077
     },
     {
-      "path": "calculations/B12/random_3d_01/d_3.5/mult_5",
+      "path": "calculations\\B12\\random_3d_01\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -2860,12 +3019,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9758549641931773,
       "max_distance_A": 15.29592919882191,
-      "mean_distance_A": 8.044237300184076
+      "mean_distance_A": 8.044237300184077
     },
     {
-      "path": "calculations/B12/random_3d_01/d_3.0/mult_1",
+      "path": "calculations\\B12\\random_3d_01\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2878,12 +3038,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.318439832245037,
       "max_distance_A": 12.320209170644075,
-      "mean_distance_A": 6.240080000349352
+      "mean_distance_A": 6.240080000349353
     },
     {
-      "path": "calculations/B12/random_3d_01/d_3.0/mult_3",
+      "path": "calculations\\B12\\random_3d_01\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2896,12 +3057,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.318439832245037,
       "max_distance_A": 12.320209170644075,
-      "mean_distance_A": 6.240080000349352
+      "mean_distance_A": 6.240080000349353
     },
     {
-      "path": "calculations/B12/random_3d_01/d_3.0/mult_5",
+      "path": "calculations\\B12\\random_3d_01\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -2914,12 +3076,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.318439832245037,
       "max_distance_A": 12.320209170644075,
-      "mean_distance_A": 6.240080000349352
+      "mean_distance_A": 6.240080000349353
     },
     {
-      "path": "calculations/B12/random_3d_01/d_2.5/mult_1",
+      "path": "calculations\\B12\\random_3d_01\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2935,9 +3098,10 @@
       "mean_distance_A": 5.44333202508001
     },
     {
-      "path": "calculations/B12/random_3d_01/d_2.5/mult_3",
+      "path": "calculations\\B12\\random_3d_01\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2953,9 +3117,10 @@
       "mean_distance_A": 5.44333202508001
     },
     {
-      "path": "calculations/B12/random_3d_01/d_2.5/mult_5",
+      "path": "calculations\\B12\\random_3d_01\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -2971,9 +3136,10 @@
       "mean_distance_A": 5.44333202508001
     },
     {
-      "path": "calculations/B12/random_3d_01/d_2.0/mult_1",
+      "path": "calculations\\B12\\random_3d_01\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -2986,12 +3152,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.4899747592253805,
       "max_distance_A": 9.327637273904687,
-      "mean_distance_A": 4.770153787578745
+      "mean_distance_A": 4.770153787578746
     },
     {
-      "path": "calculations/B12/random_3d_01/d_2.0/mult_3",
+      "path": "calculations\\B12\\random_3d_01\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -3004,12 +3171,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.4899747592253805,
       "max_distance_A": 9.327637273904687,
-      "mean_distance_A": 4.770153787578745
+      "mean_distance_A": 4.770153787578746
     },
     {
-      "path": "calculations/B12/random_3d_01/d_2.0/mult_5",
+      "path": "calculations\\B12\\random_3d_01\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_01",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 01.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -3022,12 +3190,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.4899747592253805,
       "max_distance_A": 9.327637273904687,
-      "mean_distance_A": 4.770153787578745
+      "mean_distance_A": 4.770153787578746
     },
     {
-      "path": "calculations/B12/random_3d_02/d_5.0/mult_1",
+      "path": "calculations\\B12\\random_3d_02\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -3039,13 +3208,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 4.095207631734613,
-      "max_distance_A": 21.136154480566937,
-      "mean_distance_A": 11.592872954885017
+      "max_distance_A": 21.13615448056694,
+      "mean_distance_A": 11.592872954885024
     },
     {
-      "path": "calculations/B12/random_3d_02/d_5.0/mult_3",
+      "path": "calculations\\B12\\random_3d_02\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -3057,13 +3227,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 4.095207631734613,
-      "max_distance_A": 21.136154480566937,
-      "mean_distance_A": 11.592872954885017
+      "max_distance_A": 21.13615448056694,
+      "mean_distance_A": 11.592872954885024
     },
     {
-      "path": "calculations/B12/random_3d_02/d_5.0/mult_5",
+      "path": "calculations\\B12\\random_3d_02\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -3075,13 +3246,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 4.095207631734613,
-      "max_distance_A": 21.136154480566937,
-      "mean_distance_A": 11.592872954885017
+      "max_distance_A": 21.13615448056694,
+      "mean_distance_A": 11.592872954885024
     },
     {
-      "path": "calculations/B12/random_3d_02/d_4.5/mult_1",
+      "path": "calculations\\B12\\random_3d_02\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -3094,12 +3266,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.298546424235849,
       "max_distance_A": 18.440011909748222,
-      "mean_distance_A": 10.28320522141424
+      "mean_distance_A": 10.283205221414237
     },
     {
-      "path": "calculations/B12/random_3d_02/d_4.5/mult_3",
+      "path": "calculations\\B12\\random_3d_02\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -3112,12 +3285,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.298546424235849,
       "max_distance_A": 18.440011909748222,
-      "mean_distance_A": 10.28320522141424
+      "mean_distance_A": 10.283205221414237
     },
     {
-      "path": "calculations/B12/random_3d_02/d_4.5/mult_5",
+      "path": "calculations\\B12\\random_3d_02\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -3130,12 +3304,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.298546424235849,
       "max_distance_A": 18.440011909748222,
-      "mean_distance_A": 10.28320522141424
+      "mean_distance_A": 10.283205221414237
     },
     {
-      "path": "calculations/B12/random_3d_02/d_4.0/mult_1",
+      "path": "calculations\\B12\\random_3d_02\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -3148,12 +3323,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9151251006091683,
       "max_distance_A": 14.908457452077416,
-      "mean_distance_A": 8.749172873994548
+      "mean_distance_A": 8.749172873994544
     },
     {
-      "path": "calculations/B12/random_3d_02/d_4.0/mult_3",
+      "path": "calculations\\B12\\random_3d_02\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -3166,12 +3342,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9151251006091683,
       "max_distance_A": 14.908457452077416,
-      "mean_distance_A": 8.749172873994548
+      "mean_distance_A": 8.749172873994544
     },
     {
-      "path": "calculations/B12/random_3d_02/d_4.0/mult_5",
+      "path": "calculations\\B12\\random_3d_02\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -3184,12 +3361,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.9151251006091683,
       "max_distance_A": 14.908457452077416,
-      "mean_distance_A": 8.749172873994548
+      "mean_distance_A": 8.749172873994544
     },
     {
-      "path": "calculations/B12/random_3d_02/d_3.5/mult_1",
+      "path": "calculations\\B12\\random_3d_02\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -3202,12 +3380,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.706750658710233,
       "max_distance_A": 14.298227015724102,
-      "mean_distance_A": 7.15055587463783
+      "mean_distance_A": 7.150555874637831
     },
     {
-      "path": "calculations/B12/random_3d_02/d_3.5/mult_3",
+      "path": "calculations\\B12\\random_3d_02\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -3220,12 +3399,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.706750658710233,
       "max_distance_A": 14.298227015724102,
-      "mean_distance_A": 7.15055587463783
+      "mean_distance_A": 7.150555874637831
     },
     {
-      "path": "calculations/B12/random_3d_02/d_3.5/mult_5",
+      "path": "calculations\\B12\\random_3d_02\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -3238,12 +3418,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.706750658710233,
       "max_distance_A": 14.298227015724102,
-      "mean_distance_A": 7.15055587463783
+      "mean_distance_A": 7.150555874637831
     },
     {
-      "path": "calculations/B12/random_3d_02/d_3.0/mult_1",
+      "path": "calculations\\B12\\random_3d_02\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -3256,12 +3437,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.6866849243997772,
       "max_distance_A": 13.823436164503002,
-      "mean_distance_A": 7.672578432028715
+      "mean_distance_A": 7.672578432028714
     },
     {
-      "path": "calculations/B12/random_3d_02/d_3.0/mult_3",
+      "path": "calculations\\B12\\random_3d_02\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -3274,12 +3456,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.6866849243997772,
       "max_distance_A": 13.823436164503002,
-      "mean_distance_A": 7.672578432028715
+      "mean_distance_A": 7.672578432028714
     },
     {
-      "path": "calculations/B12/random_3d_02/d_3.0/mult_5",
+      "path": "calculations\\B12\\random_3d_02\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -3292,12 +3475,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.6866849243997772,
       "max_distance_A": 13.823436164503002,
-      "mean_distance_A": 7.672578432028715
+      "mean_distance_A": 7.672578432028714
     },
     {
-      "path": "calculations/B12/random_3d_02/d_2.5/mult_1",
+      "path": "calculations\\B12\\random_3d_02\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -3309,13 +3493,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 1.8670806853826758,
-      "max_distance_A": 9.04418361607241,
-      "mean_distance_A": 5.216268909977076
+      "max_distance_A": 9.044183616072411,
+      "mean_distance_A": 5.216268909977075
     },
     {
-      "path": "calculations/B12/random_3d_02/d_2.5/mult_3",
+      "path": "calculations\\B12\\random_3d_02\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -3327,13 +3512,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 1.8670806853826758,
-      "max_distance_A": 9.04418361607241,
-      "mean_distance_A": 5.216268909977076
+      "max_distance_A": 9.044183616072411,
+      "mean_distance_A": 5.216268909977075
     },
     {
-      "path": "calculations/B12/random_3d_02/d_2.5/mult_5",
+      "path": "calculations\\B12\\random_3d_02\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -3345,13 +3531,14 @@
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
       "min_distance_A": 1.8670806853826758,
-      "max_distance_A": 9.04418361607241,
-      "mean_distance_A": 5.216268909977076
+      "max_distance_A": 9.044183616072411,
+      "mean_distance_A": 5.216268909977075
     },
     {
-      "path": "calculations/B12/random_3d_02/d_2.0/mult_1",
+      "path": "calculations\\B12\\random_3d_02\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -3364,12 +3551,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9110334758234064,
       "max_distance_A": 8.29732491110226,
-      "mean_distance_A": 4.759527017732697
+      "mean_distance_A": 4.759527017732699
     },
     {
-      "path": "calculations/B12/random_3d_02/d_2.0/mult_3",
+      "path": "calculations\\B12\\random_3d_02\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -3382,12 +3570,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9110334758234064,
       "max_distance_A": 8.29732491110226,
-      "mean_distance_A": 4.759527017732697
+      "mean_distance_A": 4.759527017732699
     },
     {
-      "path": "calculations/B12/random_3d_02/d_2.0/mult_5",
+      "path": "calculations\\B12\\random_3d_02\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_02",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 02.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -3400,12 +3589,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9110334758234064,
       "max_distance_A": 8.29732491110226,
-      "mean_distance_A": 4.759527017732697
+      "mean_distance_A": 4.759527017732699
     },
     {
-      "path": "calculations/B12/random_3d_03/d_5.0/mult_1",
+      "path": "calculations\\B12\\random_3d_03\\d_5.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -3418,12 +3608,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.2068528543921095,
       "max_distance_A": 20.757258830989162,
-      "mean_distance_A": 12.585642018440321
+      "mean_distance_A": 12.585642018440323
     },
     {
-      "path": "calculations/B12/random_3d_03/d_5.0/mult_3",
+      "path": "calculations\\B12\\random_3d_03\\d_5.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -3436,12 +3627,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.2068528543921095,
       "max_distance_A": 20.757258830989162,
-      "mean_distance_A": 12.585642018440321
+      "mean_distance_A": 12.585642018440323
     },
     {
-      "path": "calculations/B12/random_3d_03/d_5.0/mult_5",
+      "path": "calculations\\B12\\random_3d_03\\d_5.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 5.0,
       "charge": 0,
@@ -3454,12 +3646,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 4.2068528543921095,
       "max_distance_A": 20.757258830989162,
-      "mean_distance_A": 12.585642018440321
+      "mean_distance_A": 12.585642018440323
     },
     {
-      "path": "calculations/B12/random_3d_03/d_4.5/mult_1",
+      "path": "calculations\\B12\\random_3d_03\\d_4.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -3470,14 +3663,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 3.8761443917712093,
+      "min_distance_A": 3.876144391771209,
       "max_distance_A": 14.829914316722505,
-      "mean_distance_A": 8.797995242713222
+      "mean_distance_A": 8.797995242713224
     },
     {
-      "path": "calculations/B12/random_3d_03/d_4.5/mult_3",
+      "path": "calculations\\B12\\random_3d_03\\d_4.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -3488,14 +3682,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 3.8761443917712093,
+      "min_distance_A": 3.876144391771209,
       "max_distance_A": 14.829914316722505,
-      "mean_distance_A": 8.797995242713222
+      "mean_distance_A": 8.797995242713224
     },
     {
-      "path": "calculations/B12/random_3d_03/d_4.5/mult_5",
+      "path": "calculations\\B12\\random_3d_03\\d_4.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 4.5,
       "charge": 0,
@@ -3506,14 +3701,15 @@
       "nprocs": 8,
       "maxcore_MB_per_process": 2500,
       "run_type": "Opt Freq",
-      "min_distance_A": 3.8761443917712093,
+      "min_distance_A": 3.876144391771209,
       "max_distance_A": 14.829914316722505,
-      "mean_distance_A": 8.797995242713222
+      "mean_distance_A": 8.797995242713224
     },
     {
-      "path": "calculations/B12/random_3d_03/d_4.0/mult_1",
+      "path": "calculations\\B12\\random_3d_03\\d_4.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -3526,12 +3722,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.493376091262144,
       "max_distance_A": 17.545700377937365,
-      "mean_distance_A": 10.347181144136812
+      "mean_distance_A": 10.347181144136815
     },
     {
-      "path": "calculations/B12/random_3d_03/d_4.0/mult_3",
+      "path": "calculations\\B12\\random_3d_03\\d_4.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -3544,12 +3741,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.493376091262144,
       "max_distance_A": 17.545700377937365,
-      "mean_distance_A": 10.347181144136812
+      "mean_distance_A": 10.347181144136815
     },
     {
-      "path": "calculations/B12/random_3d_03/d_4.0/mult_5",
+      "path": "calculations\\B12\\random_3d_03\\d_4.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 4.0,
       "charge": 0,
@@ -3562,12 +3760,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 3.493376091262144,
       "max_distance_A": 17.545700377937365,
-      "mean_distance_A": 10.347181144136812
+      "mean_distance_A": 10.347181144136815
     },
     {
-      "path": "calculations/B12/random_3d_03/d_3.5/mult_1",
+      "path": "calculations\\B12\\random_3d_03\\d_3.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -3583,9 +3782,10 @@
       "mean_distance_A": 9.213630534266159
     },
     {
-      "path": "calculations/B12/random_3d_03/d_3.5/mult_3",
+      "path": "calculations\\B12\\random_3d_03\\d_3.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -3601,9 +3801,10 @@
       "mean_distance_A": 9.213630534266159
     },
     {
-      "path": "calculations/B12/random_3d_03/d_3.5/mult_5",
+      "path": "calculations\\B12\\random_3d_03\\d_3.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 3.5,
       "charge": 0,
@@ -3619,9 +3820,10 @@
       "mean_distance_A": 9.213630534266159
     },
     {
-      "path": "calculations/B12/random_3d_03/d_3.0/mult_1",
+      "path": "calculations\\B12\\random_3d_03\\d_3.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -3634,12 +3836,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.2437142554791114,
       "max_distance_A": 10.996140881037158,
-      "mean_distance_A": 6.960331024658602
+      "mean_distance_A": 6.960331024658601
     },
     {
-      "path": "calculations/B12/random_3d_03/d_3.0/mult_3",
+      "path": "calculations\\B12\\random_3d_03\\d_3.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -3652,12 +3855,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.2437142554791114,
       "max_distance_A": 10.996140881037158,
-      "mean_distance_A": 6.960331024658602
+      "mean_distance_A": 6.960331024658601
     },
     {
-      "path": "calculations/B12/random_3d_03/d_3.0/mult_5",
+      "path": "calculations\\B12\\random_3d_03\\d_3.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 3.0,
       "charge": 0,
@@ -3670,12 +3874,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 2.2437142554791114,
       "max_distance_A": 10.996140881037158,
-      "mean_distance_A": 6.960331024658602
+      "mean_distance_A": 6.960331024658601
     },
     {
-      "path": "calculations/B12/random_3d_03/d_2.5/mult_1",
+      "path": "calculations\\B12\\random_3d_03\\d_2.5\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -3688,12 +3893,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9887522158492097,
       "max_distance_A": 10.872913022447841,
-      "mean_distance_A": 5.705397999485353
+      "mean_distance_A": 5.70539799948535
     },
     {
-      "path": "calculations/B12/random_3d_03/d_2.5/mult_3",
+      "path": "calculations\\B12\\random_3d_03\\d_2.5\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -3706,12 +3912,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9887522158492097,
       "max_distance_A": 10.872913022447841,
-      "mean_distance_A": 5.705397999485353
+      "mean_distance_A": 5.70539799948535
     },
     {
-      "path": "calculations/B12/random_3d_03/d_2.5/mult_5",
+      "path": "calculations\\B12\\random_3d_03\\d_2.5\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 2.5,
       "charge": 0,
@@ -3724,12 +3931,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.9887522158492097,
       "max_distance_A": 10.872913022447841,
-      "mean_distance_A": 5.705397999485353
+      "mean_distance_A": 5.70539799948535
     },
     {
-      "path": "calculations/B12/random_3d_03/d_2.0/mult_1",
+      "path": "calculations\\B12\\random_3d_03\\d_2.0\\mult_1",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -3742,12 +3950,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.952407565071735,
       "max_distance_A": 9.137412183435405,
-      "mean_distance_A": 5.1248614663975784
+      "mean_distance_A": 5.124861466397577
     },
     {
-      "path": "calculations/B12/random_3d_03/d_2.0/mult_3",
+      "path": "calculations\\B12\\random_3d_03\\d_2.0\\mult_3",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -3760,12 +3969,13 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.952407565071735,
       "max_distance_A": 9.137412183435405,
-      "mean_distance_A": 5.1248614663975784
+      "mean_distance_A": 5.124861466397577
     },
     {
-      "path": "calculations/B12/random_3d_03/d_2.0/mult_5",
+      "path": "calculations\\B12\\random_3d_03\\d_2.0\\mult_5",
       "cluster": "B12",
       "structure_name": "random_3d_03",
+      "structure_family": "3d",
       "description": "Random 3D B12 cloud with controlled minimum distance 03.",
       "initial_distance_A": 2.0,
       "charge": 0,
@@ -3778,7 +3988,1204 @@
       "run_type": "Opt Freq",
       "min_distance_A": 1.952407565071735,
       "max_distance_A": 9.137412183435405,
-      "mean_distance_A": 5.1248614663975784
+      "mean_distance_A": 5.124861466397577
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_5.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.9999999999999964,
+      "max_distance_A": 17.32050807568877,
+      "mean_distance_A": 9.767115929470824
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_5.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.9999999999999964,
+      "max_distance_A": 17.32050807568877,
+      "mean_distance_A": 9.767115929470824
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_5.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.9999999999999964,
+      "max_distance_A": 17.32050807568877,
+      "mean_distance_A": 9.767115929470824
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_4.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.4999999999999964,
+      "max_distance_A": 15.588457268119894,
+      "mean_distance_A": 8.790404336523737
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_4.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.4999999999999964,
+      "max_distance_A": 15.588457268119894,
+      "mean_distance_A": 8.790404336523737
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_4.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.4999999999999964,
+      "max_distance_A": 15.588457268119894,
+      "mean_distance_A": 8.790404336523737
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_4.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.9999999999999964,
+      "max_distance_A": 13.856406460551018,
+      "mean_distance_A": 7.813692743576659
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_4.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.9999999999999964,
+      "max_distance_A": 13.856406460551018,
+      "mean_distance_A": 7.813692743576659
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_4.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.9999999999999964,
+      "max_distance_A": 13.856406460551018,
+      "mean_distance_A": 7.813692743576659
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_3.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.4999999999999973,
+      "max_distance_A": 12.12435565298214,
+      "mean_distance_A": 6.836981150629576
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_3.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.4999999999999973,
+      "max_distance_A": 12.12435565298214,
+      "mean_distance_A": 6.836981150629576
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_3.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.4999999999999973,
+      "max_distance_A": 12.12435565298214,
+      "mean_distance_A": 6.836981150629576
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_3.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.9999999999999982,
+      "max_distance_A": 10.392304845413266,
+      "mean_distance_A": 5.860269557682495
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_3.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.9999999999999982,
+      "max_distance_A": 10.392304845413266,
+      "mean_distance_A": 5.860269557682495
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_3.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.9999999999999982,
+      "max_distance_A": 10.392304845413266,
+      "mean_distance_A": 5.860269557682495
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_2.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.4999999999999982,
+      "max_distance_A": 8.660254037844386,
+      "mean_distance_A": 4.883557964735412
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_2.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.4999999999999982,
+      "max_distance_A": 8.660254037844386,
+      "mean_distance_A": 4.883557964735412
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_2.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.4999999999999982,
+      "max_distance_A": 8.660254037844386,
+      "mean_distance_A": 4.883557964735412
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_2.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 1.9999999999999982,
+      "max_distance_A": 6.928203230275509,
+      "mean_distance_A": 3.9068463717883297
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_2.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 1.9999999999999982,
+      "max_distance_A": 6.928203230275509,
+      "mean_distance_A": 3.9068463717883297
+    },
+    {
+      "path": "calculations\\B12\\planar_double_ring\\d_2.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_double_ring",
+      "structure_family": "planar",
+      "description": "Planar B6@B6 double-ring control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 1.9999999999999982,
+      "max_distance_A": 6.928203230275509,
+      "mean_distance_A": 3.9068463717883297
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_5.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.999999999999999,
+      "max_distance_A": 18.027756377319946,
+      "mean_distance_A": 9.154964408925279
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_5.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.999999999999999,
+      "max_distance_A": 18.027756377319946,
+      "mean_distance_A": 9.154964408925279
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_5.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.999999999999999,
+      "max_distance_A": 18.027756377319946,
+      "mean_distance_A": 9.154964408925279
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_4.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.5,
+      "max_distance_A": 16.224980739587952,
+      "mean_distance_A": 8.23946796803275
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_4.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.5,
+      "max_distance_A": 16.224980739587952,
+      "mean_distance_A": 8.23946796803275
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_4.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.5,
+      "max_distance_A": 16.224980739587952,
+      "mean_distance_A": 8.23946796803275
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_4.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.9999999999999996,
+      "max_distance_A": 14.422205101855956,
+      "mean_distance_A": 7.323971527140223
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_4.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.9999999999999996,
+      "max_distance_A": 14.422205101855956,
+      "mean_distance_A": 7.323971527140223
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_4.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.9999999999999996,
+      "max_distance_A": 14.422205101855956,
+      "mean_distance_A": 7.323971527140223
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_3.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.4999999999999996,
+      "max_distance_A": 12.619429464123963,
+      "mean_distance_A": 6.408475086247694
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_3.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.4999999999999996,
+      "max_distance_A": 12.619429464123963,
+      "mean_distance_A": 6.408475086247694
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_3.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.4999999999999996,
+      "max_distance_A": 12.619429464123963,
+      "mean_distance_A": 6.408475086247694
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_3.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.0,
+      "max_distance_A": 10.816653826391969,
+      "mean_distance_A": 5.492978645355167
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_3.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.0,
+      "max_distance_A": 10.816653826391969,
+      "mean_distance_A": 5.492978645355167
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_3.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.0,
+      "max_distance_A": 10.816653826391969,
+      "mean_distance_A": 5.492978645355167
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_2.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.4999999999999996,
+      "max_distance_A": 9.013878188659973,
+      "mean_distance_A": 4.5774822044626395
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_2.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.4999999999999996,
+      "max_distance_A": 9.013878188659973,
+      "mean_distance_A": 4.5774822044626395
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_2.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.4999999999999996,
+      "max_distance_A": 9.013878188659973,
+      "mean_distance_A": 4.5774822044626395
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_2.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 1.9999999999999998,
+      "max_distance_A": 7.211102550927978,
+      "mean_distance_A": 3.6619857635701116
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_2.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 1.9999999999999998,
+      "max_distance_A": 7.211102550927978,
+      "mean_distance_A": 3.6619857635701116
+    },
+    {
+      "path": "calculations\\B12\\planar_triangular_patch\\d_2.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "planar_triangular_patch",
+      "structure_family": "planar",
+      "description": "Compact planar triangular-lattice B12 control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 1.9999999999999998,
+      "max_distance_A": 7.211102550927978,
+      "mean_distance_A": 3.6619857635701116
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_5.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 5.003998401278718,
+      "max_distance_A": 17.36202753136856,
+      "mean_distance_A": 9.801408715239637
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_5.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 5.003998401278718,
+      "max_distance_A": 17.36202753136856,
+      "mean_distance_A": 9.801408715239637
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_5.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 5.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 5.003998401278718,
+      "max_distance_A": 17.36202753136856,
+      "mean_distance_A": 9.801408715239637
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_4.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.503598561150846,
+      "max_distance_A": 15.625824778231706,
+      "mean_distance_A": 8.82126784371568
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_4.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.503598561150846,
+      "max_distance_A": 15.625824778231706,
+      "mean_distance_A": 8.82126784371568
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_4.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 4.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.503598561150846,
+      "max_distance_A": 15.625824778231706,
+      "mean_distance_A": 8.82126784371568
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_4.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.003198721022974,
+      "max_distance_A": 13.889622025094852,
+      "mean_distance_A": 7.841126972191711
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_4.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.003198721022974,
+      "max_distance_A": 13.889622025094852,
+      "mean_distance_A": 7.841126972191711
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_4.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 4.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 4.003198721022974,
+      "max_distance_A": 13.889622025094852,
+      "mean_distance_A": 7.841126972191711
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_3.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.5027988808951025,
+      "max_distance_A": 12.153419271957995,
+      "mean_distance_A": 6.860986100667751
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_3.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.5027988808951025,
+      "max_distance_A": 12.153419271957995,
+      "mean_distance_A": 6.860986100667751
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_3.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 3.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.5027988808951025,
+      "max_distance_A": 12.153419271957995,
+      "mean_distance_A": 6.860986100667751
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_3.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.002399040767231,
+      "max_distance_A": 10.41721651882114,
+      "mean_distance_A": 5.880845229143781
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_3.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.002399040767231,
+      "max_distance_A": 10.41721651882114,
+      "mean_distance_A": 5.880845229143781
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_3.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 3.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 3.002399040767231,
+      "max_distance_A": 10.41721651882114,
+      "mean_distance_A": 5.880845229143781
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_2.5\\mult_1",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.501999200639359,
+      "max_distance_A": 8.68101376568428,
+      "mean_distance_A": 4.900704357619818
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_2.5\\mult_3",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.501999200639359,
+      "max_distance_A": 8.68101376568428,
+      "mean_distance_A": 4.900704357619818
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_2.5\\mult_5",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 2.5,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.501999200639359,
+      "max_distance_A": 8.68101376568428,
+      "mean_distance_A": 4.900704357619818
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_2.0\\mult_1",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 1,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.001599360511487,
+      "max_distance_A": 6.944811012547426,
+      "mean_distance_A": 3.9205634860958556
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_2.0\\mult_3",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 3,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.001599360511487,
+      "max_distance_A": 6.944811012547426,
+      "mean_distance_A": 3.9205634860958556
+    },
+    {
+      "path": "calculations\\B12\\quasi_planar_buckled_double_ring\\d_2.0\\mult_5",
+      "cluster": "B12",
+      "structure_name": "quasi_planar_buckled_double_ring",
+      "structure_family": "quasi_planar",
+      "description": "Low-amplitude buckled B6@B6 control motif.",
+      "initial_distance_A": 2.0,
+      "charge": 0,
+      "multiplicity": 5,
+      "method": "PBE0",
+      "dispersion": "D3BJ",
+      "basis": "def2-SVP",
+      "nprocs": 8,
+      "maxcore_MB_per_process": 2500,
+      "run_type": "Opt Freq",
+      "min_distance_A": 2.001599360511487,
+      "max_distance_A": 6.944811012547426,
+      "mean_distance_A": 3.9205634860958556
     }
   ]
 }

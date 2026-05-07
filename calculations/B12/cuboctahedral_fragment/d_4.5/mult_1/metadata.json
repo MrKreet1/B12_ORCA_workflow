@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "cuboctahedral_fragment",
+  "structure_family": "3d",
   "description": "Cuboctahedron-like 12-vertex 3D structure.",
   "initial_distance_A": 4.5,
   "charge": 0,
@@ -13,5 +14,5 @@
   "run_type": "Opt Freq",
   "min_distance_A": 4.5,
   "max_distance_A": 9.0,
-  "mean_distance_A": 6.44589423614524
+  "mean_distance_A": 6.445894236145239
 }

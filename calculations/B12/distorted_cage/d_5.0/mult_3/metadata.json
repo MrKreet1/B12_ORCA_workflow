@@ -1,6 +1,7 @@
 {
   "cluster": "B12",
   "structure_name": "distorted_cage",
+  "structure_family": "3d",
   "description": "Anisotropically deformed 3D cage.",
   "initial_distance_A": 5.0,
   "charge": 0,

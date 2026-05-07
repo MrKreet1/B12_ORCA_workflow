@@ -1,10 +1,10 @@
 # Final refinement for the best preliminary B12 true minimum.
-# Source calculation: calculations/B12/bilayer_3d/d_3.5/mult_1
+# Source calculation: calculations\B12\bilayer_3d\d_3.5\mult_1
 # Preliminary energy: -297.373546508462 Eh
 # Preliminary relative energy: 0.00000000 eV
 # Run with: orca input.inp > output.out
 
-! PBE0 D3BJ def2-TZVP Opt TightSCF NoAutoStart XYZFile
+! PBE0 D3BJ def2-TZVP Opt Freq TightSCF NoAutoStart XYZFile
 
 %pal
 nprocs 8

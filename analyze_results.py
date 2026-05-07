@@ -39,6 +39,7 @@ ZERO_MODE_ABS_THRESHOLD_CM = 1.0
 SUMMARY_HEADERS = [
     "cluster",
     "structure_name",
+    "structure_family",
     "initial_distance_A",
     "charge",
     "multiplicity",
@@ -74,6 +75,7 @@ class CalcResult:
     path: Path
     output_path: Path
     structure_name: str = ""
+    structure_family: str = ""
     initial_distance_A: Optional[float] = None
     charge: Optional[int] = None
     multiplicity: Optional[int] = None
@@ -104,7 +106,7 @@ class CalcResult:
             and self.scf_converged
             and self.total_energy_Eh is not None
             and not self.has_imaginary_frequencies
-            and self.number_of_vibrational_modes in (0, EXPECTED_VIBRATIONAL_MODES)
+            and self.number_of_vibrational_modes == EXPECTED_VIBRATIONAL_MODES
         )
 
 
@@ -506,6 +508,7 @@ def parse_calculation(calc_dir: Path) -> CalcResult:
     input_meta = parse_input_metadata(calc_dir / "input.inp")
 
     result.structure_name = str(path_meta.get("structure_name", ""))
+    result.structure_family = str(path_meta.get("structure_family", ""))
     result.initial_distance_A = path_meta.get("initial_distance_A") if isinstance(path_meta.get("initial_distance_A"), float) else None
     result.charge = input_meta.get("charge") if isinstance(input_meta.get("charge"), int) else None
     result.multiplicity = input_meta.get("multiplicity") if isinstance(input_meta.get("multiplicity"), int) else None
@@ -579,6 +582,7 @@ def result_to_row(result: CalcResult) -> Dict[str, object]:
     return {
         "cluster": CLUSTER,
         "structure_name": result.structure_name,
+        "structure_family": result.structure_family,
         "initial_distance_A": "" if result.initial_distance_A is None else f"{result.initial_distance_A:.1f}",
         "charge": "" if result.charge is None else result.charge,
         "multiplicity": "" if result.multiplicity is None else result.multiplicity,
@@ -629,7 +633,7 @@ def create_final_refinement_input(best: CalcResult, root: Path) -> None:
 # Preliminary relative energy: {best.relative_energy_eV:.8f} eV
 # Run with: orca input.inp > output.out
 
-! PBE0 D3BJ def2-TZVP Opt Freq TightSCF Grid5 NoAutoStart XYZFile
+! PBE0 D3BJ def2-TZVP Opt Freq TightSCF NoAutoStart XYZFile
 
 %pal
 nprocs 8
@@ -694,6 +698,8 @@ def write_best_report(results: Sequence[CalcResult], root: Path) -> None:
         f.write("Best preliminary B12 true minimum\n")
         f.write("---------------------------------\n")
         f.write(f"Structure name: {best.structure_name}\n")
+        if best.structure_family:
+            f.write(f"Structure family: {best.structure_family}\n")
         f.write(f"Calculation path: {best.path}\n")
         f.write(f"Initial distance d: {best.initial_distance_A} A\n")
         f.write(f"Charge: {best.charge}\n")
@@ -751,7 +757,8 @@ def write_best_report(results: Sequence[CalcResult], root: Path) -> None:
         f.write("Conclusion\n")
         f.write("----------\n")
         f.write("This structure is the best preliminary true minimum among the parsed PBE0-D3BJ/def2-SVP Opt Freq calculations. ")
-        f.write("It must still be refined with the generated PBE0-D3BJ/def2-TZVP Opt Freq input before final reporting.\n")
+        f.write("It must still be refined with the generated PBE0-D3BJ/def2-TZVP Opt Freq input before final reporting. ")
+        f.write("Do not make the final scientific conclusion until the planar and quasi-planar B12 controls have also been processed and compared at the same final-refinement level.\n")
 
 
 def write_disk_report(results: Sequence[CalcResult], root: Path) -> None:

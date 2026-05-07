@@ -3,7 +3,7 @@
 # Use the multiplicity of the selected best preliminary minimum.
 # Run with: orca input.inp > output.out
 
-! PBE0 D3BJ def2-TZVP Opt TightSCF NoAutoStart XYZFile
+! PBE0 D3BJ def2-TZVP Opt Freq TightSCF NoAutoStart XYZFile
 
 %pal
 nprocs 8

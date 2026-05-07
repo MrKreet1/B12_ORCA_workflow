@@ -2,12 +2,12 @@
 """
 generate_inputs.py
 
-Fully reproducible generator for 3D B12 ORCA 6.1 input folders.
+Fully reproducible generator for B12 ORCA 6.1 input folders.
 
 Scope:
 - B12 only
 - neutral cluster only: charge = 0
-- 3D starting geometries only
+- 3D, planar, and quasi-planar starting geometries
 - multiplicities: 1, 3, 5
 - distances d: 5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0 Angstrom
 - preliminary method: PBE0-D3BJ/def2-SVP, Opt Freq
@@ -56,6 +56,7 @@ class StructureSpec:
     name: str
     builder: Callable[[float], List[Atom]]
     description: str
+    family: str
 
 
 def center_atoms(atoms: Sequence[Atom]) -> List[Atom]:
@@ -112,6 +113,27 @@ def validate_b12_3d(name: str, atoms: Sequence[Atom]) -> None:
         raise ValueError(f"{name}: degenerate coordinate range; 3D geometry required")
     if min_distance(atoms) < 0.45:
         raise ValueError(f"{name}: atoms are unrealistically close")
+
+
+def validate_b12_structure(spec: StructureSpec, atoms: Sequence[Atom]) -> None:
+    if len(atoms) != N_ATOMS:
+        raise ValueError(f"{spec.name}: expected {N_ATOMS} atoms, got {len(atoms)}")
+    if any(atom[0] != "B" for atom in atoms):
+        raise ValueError(f"{spec.name}: only boron atoms are allowed")
+    xs = [a[1] for a in atoms]
+    ys = [a[2] for a in atoms]
+    zs = [a[3] for a in atoms]
+    z_span = max(zs) - min(zs)
+    if max(xs) - min(xs) < 1e-6 or max(ys) - min(ys) < 1e-6:
+        raise ValueError(f"{spec.name}: degenerate coordinate range")
+    if min_distance(atoms) < 0.45:
+        raise ValueError(f"{spec.name}: atoms are unrealistically close")
+    if spec.family == "3d" and z_span < 1e-6:
+        raise ValueError(f"{spec.name}: structure is planar in z; 3D geometry required")
+    if spec.family == "planar" and z_span > 1e-6:
+        raise ValueError(f"{spec.name}: planar control must have z=0")
+    if spec.family == "quasi_planar" and not (1e-6 < z_span < 0.35 * max(1.0, min_distance(atoms))):
+        raise ValueError(f"{spec.name}: quasi-planar control has unexpected z span")
 
 
 def icosahedron(d: float) -> List[Atom]:
@@ -187,6 +209,44 @@ def bilayer_3d(d: float) -> List[Atom]:
     return center_atoms(atoms_from_coords(coords))
 
 
+def planar_double_ring(d: float) -> List[Atom]:
+    """Planar B6@B6 double-ring control structure."""
+    coords: List[Coord] = []
+    inner_radius = d
+    outer_radius = math.sqrt(3.0) * d
+    for k in range(6):
+        ang = 2.0 * math.pi * k / 6.0
+        coords.append((inner_radius * math.cos(ang), inner_radius * math.sin(ang), 0.0))
+    for k in range(6):
+        ang = 2.0 * math.pi * (k + 0.5) / 6.0
+        coords.append((outer_radius * math.cos(ang), outer_radius * math.sin(ang), 0.0))
+    return center_atoms(atoms_from_coords(coords))
+
+
+def planar_triangular_patch(d: float) -> List[Atom]:
+    """Compact planar triangular-lattice B12 patch control structure."""
+    coords: List[Coord] = []
+    row_spacing = math.sqrt(3.0) * d / 2.0
+    for row in range(3):
+        y = (row - 1) * row_spacing
+        x_offset = 0.5 * d if row % 2 else 0.0
+        for col in range(4):
+            x = (col - 1.5) * d + x_offset
+            coords.append((x, y, 0.0))
+    return center_atoms(atoms_from_coords(coords))
+
+
+def quasi_planar_buckled_double_ring(d: float) -> List[Atom]:
+    """Low-amplitude buckled B6@B6 double-ring control structure."""
+    planar = planar_double_ring(d)
+    buckled: List[Atom] = []
+    for idx, (el, x, y, _) in enumerate(planar):
+        amplitude = 0.08 * d if idx < 6 else 0.12 * d
+        z = amplitude if idx % 2 == 0 else -amplitude
+        buckled.append((el, x, y, z))
+    return center_atoms(buckled)
+
+
 def cuboctahedral_fragment(d: float) -> List[Atom]:
     """12 vertices of a cuboctahedron-like high-symmetry 3D structure."""
     raw: List[Coord] = []
@@ -254,16 +314,19 @@ def random_3d(d: float, seed: int) -> List[Atom]:
 
 def build_structure_specs() -> List[StructureSpec]:
     return [
-        StructureSpec("icosahedron", icosahedron, "Regular icosahedral B12 vertex shell."),
-        StructureSpec("compact_3d", compact_3d, "Compact non-planar B12 cage-like cluster."),
-        StructureSpec("bilayer_3d", bilayer_3d, "Two staggered non-planar B6 layers."),
-        StructureSpec("cuboctahedral_fragment", cuboctahedral_fragment, "Cuboctahedron-like 12-vertex 3D structure."),
-        StructureSpec("distorted_cage", distorted_cage, "Anisotropically deformed 3D cage."),
-        StructureSpec("distorted_icosahedron_01", lambda d: distorted_icosahedron(d, seed=101, amplitude=0.025), "Low-symmetry distorted icosahedron variant 01."),
-        StructureSpec("distorted_icosahedron_02", lambda d: distorted_icosahedron(d, seed=202, amplitude=0.040), "Low-symmetry distorted icosahedron variant 02."),
-        StructureSpec("random_3d_01", lambda d: random_3d(d, seed=RANDOM_SEED + 1 + int(round(d * 10))), "Random 3D B12 cloud with controlled minimum distance 01."),
-        StructureSpec("random_3d_02", lambda d: random_3d(d, seed=RANDOM_SEED + 2 + int(round(d * 10))), "Random 3D B12 cloud with controlled minimum distance 02."),
-        StructureSpec("random_3d_03", lambda d: random_3d(d, seed=RANDOM_SEED + 3 + int(round(d * 10))), "Random 3D B12 cloud with controlled minimum distance 03."),
+        StructureSpec("icosahedron", icosahedron, "Regular icosahedral B12 vertex shell.", "3d"),
+        StructureSpec("compact_3d", compact_3d, "Compact non-planar B12 cage-like cluster.", "3d"),
+        StructureSpec("bilayer_3d", bilayer_3d, "Two staggered non-planar B6 layers.", "3d"),
+        StructureSpec("cuboctahedral_fragment", cuboctahedral_fragment, "Cuboctahedron-like 12-vertex 3D structure.", "3d"),
+        StructureSpec("distorted_cage", distorted_cage, "Anisotropically deformed 3D cage.", "3d"),
+        StructureSpec("distorted_icosahedron_01", lambda d: distorted_icosahedron(d, seed=101, amplitude=0.025), "Low-symmetry distorted icosahedron variant 01.", "3d"),
+        StructureSpec("distorted_icosahedron_02", lambda d: distorted_icosahedron(d, seed=202, amplitude=0.040), "Low-symmetry distorted icosahedron variant 02.", "3d"),
+        StructureSpec("random_3d_01", lambda d: random_3d(d, seed=RANDOM_SEED + 1 + int(round(d * 10))), "Random 3D B12 cloud with controlled minimum distance 01.", "3d"),
+        StructureSpec("random_3d_02", lambda d: random_3d(d, seed=RANDOM_SEED + 2 + int(round(d * 10))), "Random 3D B12 cloud with controlled minimum distance 02.", "3d"),
+        StructureSpec("random_3d_03", lambda d: random_3d(d, seed=RANDOM_SEED + 3 + int(round(d * 10))), "Random 3D B12 cloud with controlled minimum distance 03.", "3d"),
+        StructureSpec("planar_double_ring", planar_double_ring, "Planar B6@B6 double-ring control motif.", "planar"),
+        StructureSpec("planar_triangular_patch", planar_triangular_patch, "Compact planar triangular-lattice B12 control motif.", "planar"),
+        StructureSpec("quasi_planar_buckled_double_ring", quasi_planar_buckled_double_ring, "Low-amplitude buckled B6@B6 control motif.", "quasi_planar"),
     ]
 
 
@@ -281,7 +344,7 @@ def orca_input_text(multiplicity: int) -> str:
 # {ALTERNATIVE_METHOD_COMMENT}
 # Run with: orca input.inp > output.out
 
-! {METHOD} {DISPERSION} {BASIS} Opt Freq TightSCF Grid5 NoAutoStart XYZFile
+! {METHOD} {DISPERSION} {BASIS} Opt Freq TightSCF NoAutoStart XYZFile
 
 %pal
 nprocs {NPROCS}
@@ -312,7 +375,7 @@ def final_refinement_template_text() -> str:
 # Use the multiplicity of the selected best preliminary minimum.
 # Run with: orca input.inp > output.out
 
-! PBE0 D3BJ def2-TZVP Opt Freq TightSCF Grid5 NoAutoStart XYZFile
+! PBE0 D3BJ def2-TZVP Opt Freq TightSCF NoAutoStart XYZFile
 
 %pal
 nprocs {NPROCS}
@@ -345,6 +408,7 @@ def write_summary_template(root: Path) -> None:
     headers = [
         "cluster",
         "structure_name",
+        "structure_family",
         "initial_distance_A",
         "charge",
         "multiplicity",
@@ -365,7 +429,7 @@ def write_summary_template(root: Path) -> None:
 
 
 def write_report_template(root: Path) -> None:
-    text = """# Итоговый отчёт: B12 ORCA 6.1 3D workflow
+    text = """# Итоговый отчёт: B12 ORCA 6.1 workflow
 
 ## 1. Цель расчёта
 Цель — найти наиболее стабильную 3D-геометрию нейтрального кластера B12 по минимальной полной энергии среди истинных минимумов, подтверждённых частотным расчётом.
@@ -381,7 +445,7 @@ def write_report_template(root: Path) -> None:
 - Режим запуска: последовательный, без параллельного запуска нескольких ORCA jobs.
 
 ## 3. Методика
-Стартовые геометрии B12 генерируются только в 3D. Для каждой геометрии перебираются расстояния d = 5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0 Å и мультиплетности 1, 3, 5. Предварительный уровень: PBE0-D3BJ/def2-SVP Opt Freq. Альтернатива для скрининга: B3LYP-D3BJ/def2-SVP. Финальное уточнение лучшей структуры: PBE0-D3BJ/def2-TZVP Opt Freq.
+Стартовые геометрии B12 генерируются для 3D, планарных и квазипланарных мотивов. Для каждой геометрии перебираются расстояния d = 5.0, 4.5, 4.0, 3.5, 3.0, 2.5, 2.0 Å и мультиплетности 1, 3, 5. Предварительный уровень: PBE0-D3BJ/def2-SVP Opt Freq. Альтернатива для скрининга: B3LYP-D3BJ/def2-SVP. Финальное уточнение лучшей структуры: PBE0-D3BJ/def2-TZVP Opt Freq.
 
 ## 4. Результаты B12
 После выполнения `python3 analyze_results.py` вставить таблицу `summary.csv`.
@@ -394,10 +458,12 @@ def write_report_template(root: Path) -> None:
 - путь к optimized.xyz;
 - путь к output.out.
 
-## 5. Сравнение 3D-структур
-Сравнить только реально оптимизированные структуры. Лучшая структура не выбирается по стартовой геометрии: стартовая конфигурация — только начальная точка оптимизации. Сравнение выполняется по финальной полной энергии после оптимизации и по результатам частотного расчёта. Структуры с мнимыми частотами не считаются истинными минимумами.
+## 5. Сравнение структур
+Сравнить только реально оптимизированные 3D, планарные и квазипланарные структуры. Лучшая структура не выбирается по стартовой геометрии: стартовая конфигурация — только начальная точка оптимизации. Сравнение выполняется по финальной полной энергии после оптимизации и по результатам частотного расчёта. Структуры с мнимыми частотами не считаются истинными минимумами.
 
 ## 6. Итоговый вывод
+До запуска планарных/квазипланарных контролей и отдельного PBE0-D3BJ/def2-TZVP Opt Freq уточнения не формулировать окончательный научный вывод. На этом этапе допустим только предварительный вывод по уже обработанным структурам.
+
 Указать структуру с минимальной полной энергией среди истинных минимумов, её мультиплетность, энергию, относительную энергию, 30 нормальных колебательных мод B12, отсутствие мнимых частот и рекомендации для дополнительных расчётов.
 
 ## Пояснения
@@ -414,14 +480,19 @@ def write_report_template(root: Path) -> None:
 
 
 def write_readme(project_root: Path) -> None:
-    text = f"""# B12 ORCA 6.1 3D workflow
+    text = f"""# B12 ORCA 6.1 workflow
 
 This package prepares a reproducible ORCA 6.1 workflow for B12 only.
+It includes 3D, planar, and quasi-planar starting geometries so that a
+preliminary 3D minimum is not treated as the final scientific conclusion before
+the planar controls have been processed.
 
 ## Files
 
-- `generate_inputs.py` — creates the calculation tree, 3D B12 XYZ files, and ORCA `input.inp` files.
-- `run_all.sh` — runs all ORCA calculations sequentially.
+- `generate_inputs.py` — creates the calculation tree, B12 XYZ files, and ORCA `input.inp` files.
+- `run_all.sh` — runs preliminary ORCA calculations sequentially and skips `final_refinement`.
+- `run_planar_controls.sh` — runs representative planar/quasi-planar controls only.
+- `run_final_refinement.sh` — runs `calculations/B12/final_refinement/input.inp` separately.
 - `analyze_results.py` — parses ORCA outputs, creates `summary.csv`, `best_structure_B12.txt`, and final refinement input when a true minimum is found.
 - `starter_xyz_examples/` — ready example XYZ files for d = 2.0 Å.
 - `final_refinement_template.inp` — template for PBE0-D3BJ/def2-TZVP Opt Freq.
@@ -433,7 +504,7 @@ This package prepares a reproducible ORCA 6.1 workflow for B12 only.
 ```bash
 cd B12_ORCA_workflow
 python3 generate_inputs.py
-chmod +x run_all.sh
+chmod +x run_all.sh run_planar_controls.sh run_final_refinement.sh
 
 # Recommended: run inside tmux
 tmux new -s b12_orca
@@ -442,6 +513,16 @@ tmux new -s b12_orca
 
 python3 analyze_results.py
 ```
+
+## Required follow-up before final reporting
+
+1. Run the planar/quasi-planar controls or at least two representative controls,
+   for example `planar_double_ring` and `quasi_planar_buckled_double_ring`.
+   The helper command is `./run_planar_controls.sh`.
+2. Run `calculations/B12/final_refinement/input.inp` separately after
+   `analyze_results.py` creates it for the current best preliminary minimum.
+3. Base the final scientific conclusion only on completed, frequency-checked
+   PBE0-D3BJ/def2-TZVP final-refinement results.
 
 ## ORCA command
 
@@ -455,12 +536,13 @@ This is safer for parallel ORCA jobs using `%pal nprocs 8 end`.
 
 ## Selection criterion
 
-The best B12 geometry is the lowest-energy structure among calculations that:
+The preliminary best B12 geometry is the lowest-energy structure among
+calculations that:
 
 1. terminated normally;
 2. have a converged SCF;
 3. have no imaginary vibrational frequencies;
-4. have the expected 30 vibrational modes for nonlinear B12, when the output contains the full mode list.
+4. have the expected 30 vibrational modes for nonlinear B12.
 """
     (project_root / "README_B12_ORCA_workflow.md").write_text(text, encoding="utf-8")
 
@@ -479,29 +561,30 @@ def main() -> None:
 
     for spec in specs:
         example_atoms = spec.builder(2.0)
-        validate_b12_3d(spec.name, example_atoms)
+        validate_b12_structure(spec, example_atoms)
         write_xyz(
             examples_dir / f"{spec.name}_d_2.0.xyz",
             example_atoms,
-            f"B12 {spec.name}; 3D initial geometry; d=2.0 A; generated by generate_inputs.py",
+            f"B12 {spec.name}; {spec.family} initial geometry; d=2.0 A; generated by generate_inputs.py",
         )
 
         for d in DISTANCES_A:
             atoms = spec.builder(d)
-            validate_b12_3d(spec.name, atoms)
+            validate_b12_structure(spec, atoms)
             stats = pair_distance_stats(atoms)
             for mult in MULTIPLICITIES:
                 calc_dir = ROOT / spec.name / f"d_{d:.1f}" / f"mult_{mult}"
                 calc_dir.mkdir(parents=True, exist_ok=True)
                 xyz_comment = (
                     f"B12 {spec.name}; neutral charge={CHARGE}; multiplicity={mult}; "
-                    f"3D initial geometry; nominal d={d:.1f} A; {spec.description}"
+                    f"{spec.family} initial geometry; nominal d={d:.1f} A; {spec.description}"
                 )
                 write_xyz(calc_dir / "start.xyz", atoms, xyz_comment)
                 (calc_dir / "input.inp").write_text(orca_input_text(mult), encoding="utf-8")
                 metadata = {
                     "cluster": CLUSTER,
                     "structure_name": spec.name,
+                    "structure_family": spec.family,
                     "description": spec.description,
                     "initial_distance_A": d,
                     "charge": CHARGE,
@@ -529,10 +612,12 @@ def main() -> None:
     print(f"Created {len(manifest)} ORCA input folders under {ROOT}")
     print(f"Created example XYZ files under {examples_dir}")
     print("Next steps:")
-    print("  chmod +x run_all.sh")
+    print("  chmod +x run_all.sh run_planar_controls.sh run_final_refinement.sh")
     print("  tmux new -s b12_orca")
     print("  ./run_all.sh")
+    print("  ./run_planar_controls.sh")
     print("  python3 analyze_results.py")
+    print("  ./run_final_refinement.sh")
 
 
 if __name__ == "__main__":
